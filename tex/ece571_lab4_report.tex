@@ -8,8 +8,9 @@
 \usepackage{xcolor}
 \usepackage{graphicx}
 \usepackage{caption}
-\setlength{\parskip}{1em}
-\setlength{\parindent}{1cm}
+\usepackage{indentfirst}
+% \setlength{\parskip}{1em}
+% \setlength{\parindent}{0.5in}
 
 % Document
 \begin{document}
@@ -23,6 +24,7 @@
 
 	\vspace{1cm}
 	\Large
+
 	% just putting us in alphabetical order for now
 	\textbf{Sean Crowley}
 
@@ -43,6 +45,20 @@
 \end{titlepage}
 
 \section*{Introduction}
+
+\noindent Our group chose to do project 6, the 8-bit asynchronous comparator:
+
+\begin{enumerate}[start=6]
+	\item 8-bit asynchronous comparator. The comparator operates asynchronously with an 8-bit input for comparison. It features an asynchronous global clear signal with active low. To maintain precision, the output is constrained to 16 bits to prevent overflow. The comparator requires a minimum input data rate of 1MHz. This ensures optimal performance, with a load capacitance of 1pF across all output pins. During a reset triggered by the global clear signal, all input signals are disregarded, ensuring a clean initialization state for the comparator.
+\end{enumerate}
+
+\noindent Some assumptions we made about the project as well as clarifications we asked about:
+
+\begin{itemize}
+	\item The prompt asking for a 16 bit output is a typo, and it will be 3 outputs instead, one for each of the possible comparisons (greater than, less than, equal to).
+	\item The 8-bit inputs will not be signed, so we don't have to worry about two's (or one's) complement, nor will we have to worry about whether we're comparing magnitude or value.
+\end{itemize}
+
 
 \section*{Design Process}
 
