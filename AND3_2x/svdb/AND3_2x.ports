@@ -1,8 +1,0 @@
-# SVDB: Port Table (ports)
-# SVDB: Layout Primary AND3_2x
-B 6 B 2800 8700 metal1
-A 3 A 1200 8500 metal1
-Q 9 Q 14500 5400 metal1
-vss 4 vss 8200 700 metal1
-C 7 C 4200 8700 metal1
-vdd 8 vdd 3900 13900 metal1

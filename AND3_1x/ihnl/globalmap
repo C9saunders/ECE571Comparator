@@ -1,8 +1,0 @@
-CADENCE IHNL11140
-$model
-Lab1/AND3_2x/schematic AND3_2x
-$endmodel
-$net
-$endnet
-$param
-$endparam
