@@ -1,0 +1,10 @@
+Pegasus 23.14-s006 W6eUyhvWDSmkstMrnkYP8g 2026-04-10 15:20:15 530823 linuxa1.engr.colostate.edu
+Copyright 2024 Cadence Design Systems, Inc.
+All rights reserved worldwide.
+
+INFO:    Command Line Options: -lvs -top_cell OR3_4x -log_dir LOGS -source_top_cell OR3_4x -spice /top/students/UNGRAD/ECE/scrowl/home/ECE571/TSMC_Cadence/ECE571_11_OR3/OR3_4x/lvs/OR3_4x.spi -control /top/students/UNGRAD/ECE/scrowl/home/ECE571/TSMC_Cadence/ECE571_11_OR3/OR3_4x/lvs/pegasuslvsctl -ui_data -gdb_data /top/students/UNGRAD/ECE/scrowl/home/ECE571/TSMC_Cadence/tsmc18rf_lvs.rul
+INFO:    Launch host CPU: Model: Intel(R) Xeon(R) CPU E5-2680 v4 @ 2.40GHz, OS: Rocky Linux release 8.10 (Green Obsidian), Logical cores: 56, Physical cores: 28, Cache: 35840 KB, CPU Speed: 2886.68 MHz
+         Launch host Memory: MemTotal: 257812 MB,  MemFree: 46233 MB,  SwapTotal: 32767 MB,  SwapFree: 31281 MB,  VmallocTotal: 33554431 MB,  VmallocUsed: 341 MB
+INFO:    Current path: /top/students/UNGRAD/ECE/scrowl/home/ECE571/TSMC_Cadence/ECE571_11_OR3/OR3_4x/lvs
+INFO:    Run directory same as current path
+INFO:    Log directory: /top/students/UNGRAD/ECE/scrowl/home/ECE571/TSMC_Cadence/ECE571_11_OR3/OR3_4x/lvs/LOGS

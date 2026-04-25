@@ -1,0 +1,12 @@
+text_depth -primary;
+virtual_connect -colon no;
+virtual_connect -semicolon_as_colon yes;
+virtual_connect -noname;
+virtual_connect -report no;
+virtual_connect -depth -primary;
+report_summary -drc "OR_2_5.sum" -replace;
+max_results -drc 1000;
+results_db -drc "/top/students/GRAD/ME/C837691156/home/ECE_571/TSMC_Cadence/Lab1/OR_2_5/layout/OR_2_5.drc_errors.ascii" -ascii;
+abort_on_layout_error yes;
+layout_format gdsii;
+layout_path "/top/students/GRAD/ME/C837691156/home/ECE_571/TSMC_Cadence/Lab1/OR_2_5/layout/OR_2_5.gds.gz";

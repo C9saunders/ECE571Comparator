@@ -1,0 +1,17 @@
+
+/usr/local/cadence-2024/PEGASUS231/tools.lnx86/Pegasus/bin/64bit/edbToEcdb Output Summary
+========================================================================
+
+Delete EDB      : N
+EDB Library dir : NAND2_2x_286294.db
+ECDB dir        : ./
+Top Cell        : NAND2_2x
+CDL netlist     : svdb/NAND2_2x.net
+Layer map file  : svdb/NAND2_2x.ecdbmap
+Text map file   : svdb/NAND2_2x.ports
+Dependency map  : NAND2_2x.lmap.perc
+Lvs file        : svdb/NAND2_2x.lvsfile
+Float net file  : .NAND2_2x.info.softchk
+threads         : 32
+debug           : 0
+Source Library  : NAND2_2x_286294

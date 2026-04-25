@@ -1,0 +1,39 @@
+
+
+***********************************************************
+* CDL produced by pvsBuildNetlist on Apr 17 07:49:56 2026 *
+***********************************************************
+
+
+*pvsViewList = auLvs schematic
+*pvsStopList = ("auLvs")
+*pvsSimName  = auLvs
+
+
+
+*.EXPAND_ON_M_FACTOR
+*.MEGA
+
+*.GLOBAL
++  vdd!
++  gnd!
+
+
+
+
+.subckt AND3_1x A B C Q
+*PVSCELL netlisted from Lab1 AND3_1x schematic
+  MM11 net4 C gnd! gnd! nmos2v l=180.0n w=1.5u m=1
+  MM12 net3 B net4 gnd! nmos2v l=180.0n w=1.5u m=1
+  MM13 net1 A net3 gnd! nmos2v l=180.0n w=1.5u m=1
+  MM7 Q net1 gnd! gnd! nmos2v l=180.0n w=1u m=1
+  MM10 net1 C vdd! vdd! pmos2v l=180.0n w=500n m=1
+  MM6 Q net1 vdd! vdd! pmos2v l=180.0n w=3.2u m=1
+  MM8 net1 B vdd! vdd! pmos2v l=180.0n w=500n m=1
+  MM9 net1 A vdd! vdd! pmos2v l=180.0n w=500n m=1
+.ends AND3_1x
+
+
+***********************************************************
+*             Completed at Apr 17 07:49:56 2026           *
+***********************************************************

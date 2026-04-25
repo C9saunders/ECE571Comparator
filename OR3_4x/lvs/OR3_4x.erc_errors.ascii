@@ -1,0 +1,53 @@
+OR3_4x 1000
+mnpg
+0 0 2 Apr 10 15:20:20 2026
+Rule File Pathname: /top/students/UNGRAD/ECE/scrowl/home/ECE571/TSMC_Cadence/tsmc18rf_lvs.rul
+MOS connected to both power and ground
+mppg
+0 0 2 Apr 10 15:20:20 2026
+Rule File Pathname: /top/students/UNGRAD/ECE/scrowl/home/ECE571/TSMC_Cadence/tsmc18rf_lvs.rul
+MOS connected to both power and ground
+mnpg_ldd
+0 0 2 Apr 10 15:20:20 2026
+Rule File Pathname: /top/students/UNGRAD/ECE/scrowl/home/ECE571/TSMC_Cadence/tsmc18rf_lvs.rul
+MOS connected to both power and ground
+mppg_ldd
+0 0 2 Apr 10 15:20:20 2026
+Rule File Pathname: /top/students/UNGRAD/ECE/scrowl/home/ECE571/TSMC_Cadence/tsmc18rf_lvs.rul
+MOS connected to both power and ground
+mnpg_hvs
+0 0 2 Apr 10 15:20:20 2026
+Rule File Pathname: /top/students/UNGRAD/ECE/scrowl/home/ECE571/TSMC_Cadence/tsmc18rf_lvs.rul
+MOS connected to both power and ground
+mppg_hvs
+0 0 2 Apr 10 15:20:20 2026
+Rule File Pathname: /top/students/UNGRAD/ECE/scrowl/home/ECE571/TSMC_Cadence/tsmc18rf_lvs.rul
+MOS connected to both power and ground
+mnpg1
+0 0 2 Apr 10 15:20:20 2026
+Rule File Pathname: /top/students/UNGRAD/ECE/scrowl/home/ECE571/TSMC_Cadence/tsmc18rf_lvs.rul
+MOS connected to both power and ground
+floating
+0 0 2 Apr 10 15:20:20 2026
+Rule File Pathname: /top/students/UNGRAD/ECE/scrowl/home/ECE571/TSMC_Cadence/tsmc18rf_lvs.rul
+Please check the floating gate
+floating.HVNW_float
+0 0 2 Apr 10 15:20:20 2026
+Rule File Pathname: /top/students/UNGRAD/ECE/scrowl/home/ECE571/TSMC_Cadence/tsmc18rf_lvs.rul
+HVNW_float is not connected to POWER
+floating.nxwell_float
+0 0 2 Apr 10 15:20:20 2026
+Rule File Pathname: /top/students/UNGRAD/ECE/scrowl/home/ECE571/TSMC_Cadence/tsmc18rf_lvs.rul
+nxwell_float is not connected to POWER
+floating.psub_float
+0 0 2 Apr 10 15:20:20 2026
+Rule File Pathname: /top/students/UNGRAD/ECE/scrowl/home/ECE571/TSMC_Cadence/tsmc18rf_lvs.rul
+psub_float is not connected to GROUND
+npvss49
+0 0 2 Apr 10 15:20:20 2026
+Rule File Pathname: /top/students/UNGRAD/ECE/scrowl/home/ECE571/TSMC_Cadence/tsmc18rf_lvs.rul
+ntap connected to GROUND
+ppvdd49
+0 0 2 Apr 10 15:20:20 2026
+Rule File Pathname: /top/students/UNGRAD/ECE/scrowl/home/ECE571/TSMC_Cadence/tsmc18rf_lvs.rul
+ptap connected to POWER

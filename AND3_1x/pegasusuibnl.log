@@ -1,0 +1,19 @@
+
+INFO:    Checking out 1 license(s) of feature: 'Pegasus_LVS' version 23.1
+INFO:    License checkout successful ... 2026-04-17 07:49:56
+Tool:      pegasusBuildNetlist 23.14-s006, sub-version s006
+
+COMMAND LINE INTERFACE
+   help                  This information 
+   cdl                   Load cdl     file
+   vlg                   Load verilog file
+   out                   Output filename  
+   top                   Top cell name    
+   q                     Exit             
+
+CmdLine: /usr/local/cadence-2024/PEGASUS231/tools.lnx86/Pegasus/bin/64bit/pegasusBuildNetlist -o /top/students/UNGRAD/ECE/brotel/home/ECE571/TSMC_Cadence/Lab1/AND3_1x/AND3_1x.cdl -tc AND3_1x -global_log_file /top/students/UNGRAD/ECE/brotel/home/ECE571/TSMC_Cadence/Lab1/AND3_1x/pegasusuibnl.log 
+> o /top/students/UNGRAD/ECE/brotel/home/ECE571/TSMC_Cadence/Lab1/AND3_1x/AND3_1x.cdl
+> tc AND3_1x
+> q
+Quiting...
+INFO:    Checking in all SoftShare licenses.

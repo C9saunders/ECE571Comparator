@@ -1,0 +1,39 @@
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* CDL Netlist:                                              *
+*                                                           *
+* Cell Name  : OR3_3x                                       *
+* Netlisted  : Sat Apr  4 00:13:13 2026                     *
+* Pegasus Version: 23.14-s006 Thu Jan 25 18:41:38 PST 2024  *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+*.LDD
+*.DEVTMPLT 0 MN(N) ngate tndiff(D) poly(G) tndiff(S) psub(B)
+*.DEVTMPLT 1 MP(P) pgate tpdiff(D) poly(G) tpdiff(S) nxwell(B)
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: OR3_3x                                          *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt OR3_3x A B C F VDD VSS
+** N=15 EP=6 FDC=22
+M0 VSS C 2 VSS N L=1.8e-07 W=2.5e-06 $X=3260 $Y=1250 $dt=0
+M1 2 C VSS VSS N L=1.8e-07 W=2.5e-06 $X=3980 $Y=1250 $dt=0
+M2 VSS B 2 VSS N L=1.8e-07 W=2.5e-06 $X=4720 $Y=1250 $dt=0
+M3 2 B VSS VSS N L=1.8e-07 W=2.5e-06 $X=5450 $Y=1250 $dt=0
+M4 VSS A 2 VSS N L=1.8e-07 W=2.5e-06 $X=6170 $Y=1250 $dt=0
+M5 2 A VSS VSS N L=1.8e-07 W=2.5e-06 $X=6890 $Y=1250 $dt=0
+M6 F 2 VSS VSS N L=1.8e-07 W=2e-06 $X=9220 $Y=1200 $dt=0
+M7 VSS 2 F VSS N L=1.8e-07 W=2e-06 $X=9940 $Y=1200 $dt=0
+M8 8 A VDD VDD P L=1.8e-07 W=3.75e-06 $X=1020 $Y=7830 $dt=1
+M9 9 B 8 VDD P L=1.8e-07 W=3.75e-06 $X=1460 $Y=7830 $dt=1
+M10 2 C 9 VDD P L=1.8e-07 W=3.75e-06 $X=1890 $Y=7830 $dt=1
+M11 10 C 2 VDD P L=1.8e-07 W=3.75e-06 $X=2660 $Y=7830 $dt=1
+M12 11 B 10 VDD P L=1.8e-07 W=3.75e-06 $X=3090 $Y=7830 $dt=1
+M13 VDD A 11 VDD P L=1.8e-07 W=3.75e-06 $X=3530 $Y=7830 $dt=1
+M14 12 A VDD VDD P L=1.8e-07 W=3.75e-06 $X=4350 $Y=7830 $dt=1
+M15 13 B 12 VDD P L=1.8e-07 W=3.75e-06 $X=4790 $Y=7830 $dt=1
+M16 2 C 13 VDD P L=1.8e-07 W=3.75e-06 $X=5220 $Y=7830 $dt=1
+M17 14 C 2 VDD P L=1.8e-07 W=3.75e-06 $X=6020 $Y=7830 $dt=1
+M18 15 B 14 VDD P L=1.8e-07 W=3.75e-06 $X=6450 $Y=7830 $dt=1
+M19 VDD A 15 VDD P L=1.8e-07 W=3.75e-06 $X=6890 $Y=7830 $dt=1
+M20 F 2 VDD VDD P L=1.8e-07 W=6e-06 $X=9220 $Y=6450 $dt=1
+M21 VDD 2 F VDD P L=1.8e-07 W=6e-06 $X=9940 $Y=6450 $dt=1
+.ends OR3_3x

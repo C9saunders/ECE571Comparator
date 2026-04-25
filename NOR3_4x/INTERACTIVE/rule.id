@@ -1,0 +1,121 @@
+1776376508
+1 SHORT     1. gnd! - 4 in NOR3_4 4
+2 shorted texts:
+"4" at (1.520 9.030) on layer "tpdiff" SN 0
+"gnd!" at (17.540 0$$PVS$$
+$$PVS$$.030) on layer "tpdiff" SN 439
+2 SHORT     2. vdd! - 4 in NOR3_4 4
+2 shorted texts:
+"4" at (1.520 9.030) on layer "tpdiff" SN 0
+"vdd!" at (0.685 9.$$PVS$$
+$$PVS$$030) on layer "tpdiff" SN 551
+3 SHORT     3. vdd! - 4 in NOR3_4 4
+2 shorted texts:
+"4" at (1.520 9.030) on layer "tpdiff" SN 0
+"vdd!" at (2.380 9.$$PVS$$
+$$PVS$$030) on layer "tpdiff" SN 552
+4 SHORT     4. vdd! - 4 in NOR3_4 4
+2 shorted texts:
+"4" at (1.520 9.030) on layer "tpdiff" SN 0
+"vdd!" at (4.100 9.$$PVS$$
+$$PVS$$030) on layer "tpdiff" SN 553
+5 SHORT     5. vdd! - 4 in NOR3_4 4
+2 shorted texts:
+"4" at (1.520 9.030) on layer "tpdiff" SN 0
+"vdd!" at (5.820 9.$$PVS$$
+$$PVS$$030) on layer "tpdiff" SN 554
+6 SHORT     6. vdd! - 4 in NOR3_4 4
+2 shorted texts:
+"4" at (1.520 9.030) on layer "tpdiff" SN 0
+"vdd!" at (7.540 9.$$PVS$$
+$$PVS$$030) on layer "tpdiff" SN 555
+7 SHORT     7. vdd! - 4 in NOR3_4 4
+2 shorted texts:
+"4" at (1.520 9.030) on layer "tpdiff" SN 0
+"vdd!" at (9.260 9.$$PVS$$
+$$PVS$$030) on layer "tpdiff" SN 556
+8 SHORT     8. vdd! - 4 in NOR3_4 4
+2 shorted texts:
+"4" at (1.520 9.030) on layer "tpdiff" SN 0
+"vdd!" at (10.955 9$$PVS$$
+$$PVS$$.030) on layer "tpdiff" SN 557
+9 SHORT     9. 2 - 4 in NOR3_4 4
+2 shorted texts:
+"4" at (1.520 9.030) on layer "tpdiff" SN 0
+"2" at (15.000 8.64$$PVS$$
+$$PVS$$0) on layer "tpdiff" SN 772
+10 SHORT    10. 2 - 4 in NOR3_4 4
+2 shorted texts:
+"4" at (1.520 9.030) on layer "tpdiff" SN 0
+"2" at (13.280 8.64$$PVS$$
+$$PVS$$0) on layer "tpdiff" SN 771
+11 SHORT    11. 2 - 4 in NOR3_4 4
+2 shorted texts:
+"4" at (1.520 9.030) on layer "tpdiff" SN 0
+"2" at (16.720 8.64$$PVS$$
+$$PVS$$0) on layer "tpdiff" SN 773
+12 SHORT    12. 2 - 4 in NOR3_4 4
+2 shorted texts:
+"4" at (1.520 9.030) on layer "tpdiff" SN 0
+"2" at (18.440 8.64$$PVS$$
+$$PVS$$0) on layer "tpdiff" SN 774
+13 SHORT    13. 2 - 4 in NOR3_4 4
+2 shorted texts:
+"4" at (1.520 9.030) on layer "tpdiff" SN 0
+"2" at (20.160 8.64$$PVS$$
+$$PVS$$0) on layer "tpdiff" SN 775
+14 SHORT    14. 2 - 4 in NOR3_4 4
+2 shorted texts:
+"4" at (1.520 9.030) on layer "tpdiff" SN 0
+"2" at (21.880 8.64$$PVS$$
+$$PVS$$0) on layer "tpdiff" SN 776
+15 SHORT    15. 2 - 4 in NOR3_4 4
+2 shorted texts:
+"4" at (1.520 9.030) on layer "tpdiff" SN 0
+"2" at (24.295 8.64$$PVS$$
+$$PVS$$0) on layer "tpdiff" SN 777
+16 SHORT    16. Q - 4 in NOR3_4 4
+2 shorted texts:
+"4" at (1.520 9.030) on layer "tpdiff" SN 0
+"Q" at (25.130 8.64$$PVS$$
+$$PVS$$0) on layer "tpdiff" SN 285
+17 SHORT    17. 2 - 4 in NOR3_4 4
+2 shorted texts:
+"4" at (1.520 9.030) on layer "tpdiff" SN 0
+"2" at (25.990 8.64$$PVS$$
+$$PVS$$0) on layer "tpdiff" SN 778
+18 SHORT    18. Q - 4 in NOR3_4 4
+2 shorted texts:
+"4" at (1.520 9.030) on layer "tpdiff" SN 0
+"Q" at (26.850 8.64$$PVS$$
+$$PVS$$0) on layer "tpdiff" SN 286
+19 SHORT    19. 2 - 4 in NOR3_4 4
+2 shorted texts:
+"4" at (1.520 9.030) on layer "tpdiff" SN 0
+"2" at (27.710 8.64$$PVS$$
+$$PVS$$0) on layer "tpdiff" SN 779
+20 SHORT    20. Q - 4 in NOR3_4 4
+2 shorted texts:
+"4" at (1.520 9.030) on layer "tpdiff" SN 0
+"Q" at (28.570 8.64$$PVS$$
+$$PVS$$0) on layer "tpdiff" SN 287
+21 SHORT    21. 2 - 4 in NOR3_4 4
+2 shorted texts:
+"4" at (1.520 9.030) on layer "tpdiff" SN 0
+"2" at (29.430 8.64$$PVS$$
+$$PVS$$0) on layer "tpdiff" SN 780
+22 SHORT    22. Q - 4 in NOR3_4 4
+2 shorted texts:
+"4" at (1.520 9.030) on layer "tpdiff" SN 0
+"Q" at (30.290 8.64$$PVS$$
+$$PVS$$0) on layer "tpdiff" SN 288
+23 SHORT    23. Q - 4 in NOR3_4 4
+2 shorted texts:
+"4" at (1.520 9.030) on layer "tpdiff" SN 0
+"Q" at (32.020 8.64$$PVS$$
+$$PVS$$0) on layer "tpdiff" SN 289
+24 SHORT    24. Q - 4 in NOR3_4 4
+2 shorted texts:
+"4" at (1.520 9.030) on layer "tpdiff" SN 0
+"Q" at (33.740 8.64$$PVS$$
+$$PVS$$0) on layer "tpdiff" SN 290

@@ -1,0 +1,100 @@
+;| version 1
+connect NTAPi NWELi
+connect PTAPi RWi
+connect PTAPi PWELi
+connect NTAPi PSDi
+connect PTAPi NSDi
+connect M1xd ILP1i NTAPi PTAPi PSDi NSDi by COi
+connect M2xd M0i by SICR_V1i
+connect M1xd M2xd by VIA1i
+connect M3xd CTM2i CMM2i M2xd by VIA2i
+connect M3xd MDxd by VIADi
+connect VIA1_3stack.Final VIA1_Violate_S_3_A1
+connect VIA1_3stack.Final VIA2_Violate_S_3_A1
+connect VIA1_3stack.Final VIAD_Violate_S_3_A1
+connect VIA1_2stack.Final VIA1_Violate_S_2_A1
+connect VIA1_2stack.Final VIA2_Violate_S_2_A1
+connect VIA2_2stack.Final VIA2_Violate_S_2_A2
+connect VIA2_2stack.Final VIAD_Violate_S_2_A2
+connect M1HoleD LM1X
+connect M2HoleD LM2X
+connect M3HoleD LM3X
+connect MDHoleD LMDX
+connect ENSD NSDi
+connect EPSD PSDi
+connect NWELc NWELc by NWELc
+connect PWELc PWELc by PWELc
+connect NWEL DNW
+connect M3xd CBi
+connect M3xd UBMn by CBDi
+connect MDxd UBMd
+connect M3xd PPIi by CBDi
+connect PPIi UBMd
+connect NTAPj NWELj
+connect NTAPj PSDj
+connect PTAPj NSDj
+connect PTAPj RWj
+connect PTAPj PWELj
+connect M1j ILP1j NTAPj PTAPj PSDj NSDj by COj
+connect M2j M0j by SICR_V1j
+connect M0j MSIj
+connect M1j NWRjT by COj
+connect M1j M2j by VIA1j
+connect M3j CTM2j CMM2j M2j by VIA2j
+connect M3j MDj by VIADj
+connect M3j CBj
+connect M3j UBMnj by CBDj
+connect MDj UBMdj
+connect M3j PPIj by CBDj
+connect PPIj UBMdj
+connect NTAPu NWELu
+connect NTAPu PSDu
+connect PTAPu NSDu
+connect PTAPu RWu
+connect PTAPu PWELu
+connect M1u ILP1u NTAPu PTAPu PSDu NSDu by COu
+connect M2u M0u by SICR_V1u
+connect M0u MSIu
+connect M1u NWRuT by COu
+connect M1u M2u by VIA1u
+connect M3u CTM2u CMM2u M2u by VIA2u
+connect M3u MDu by VIADu
+connect M3u CBu
+connect M3u UBMnu by CBDu
+connect MDu UBMdu
+connect M3u PPIu by CBDu
+connect PPIu UBMdu
+connect NTAPk NWELk
+connect NTAPk PSDk
+connect PTAPk NSDk
+connect PTAPk RWk
+connect PTAPk PWELk
+connect M1k ILP1k NTAPk PTAPk PSDk NSDk by COk
+connect M2k M0k by SICR_V1k
+connect M1k NWRkT by COk
+connect M1k M2k by VIA1k
+connect M3k CTM2k CMM2k M2k by VIA2k
+connect M3k MDk by VIADk
+connect M3k CBk
+connect M3k UBMnk by CBDk
+connect MDk UBMdk
+connect M3k PPIk by CBDk
+connect PPIk UBMdk
+connect NTAPiu NTAPj
+connect PTAPiu PTAPj
+connect NSDiu NSDj
+connect PSDiu PSDj
+connect M1iu M1j
+connect COiu COj
+connect M1m M2m by VIA1m
+connect M2m M3m by VIAtm
+connect M3m VIAcm
+connect M3m MDm by VIADm
+connect M3m CBm
+connect M3m UBMnm by CBDm
+connect MDm UBMdm
+connect M3m PPIm by CBDm
+connect PPIm UBMdm
+connect CTMV2 TCTM
+connect CBMV2 BPM2
+connect CBMV2_3D BPM2_3D

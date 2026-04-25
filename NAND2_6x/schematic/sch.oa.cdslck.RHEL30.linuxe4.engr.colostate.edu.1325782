@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      yousefaf
+HostName                       linuxe4.engr.colostate.edu
+ProcessIdentifier              1325782
+ProcessCreationTime_UTC        1774739289
+ProcessCreationTime_Readable   Sat Mar 28 17:08:09 2026 MDT
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /net/nasstore/students/UNGRAD/ECE/yousefaf/home/ECE571/TSMC_Cadence/Labs/NAND2_6/schematic/sch.oa.cdslck.dirlck
+TimeEditLocked                 Sat Mar 28 17:09:27 2026 MDT

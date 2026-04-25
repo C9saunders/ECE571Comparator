@@ -1,0 +1,17 @@
+
+/usr/local/cadence-2024/PEGASUS231/tools.lnx86/Pegasus/bin/64bit/edbToEcdb Output Summary
+========================================================================
+
+Delete EDB      : N
+EDB Library dir : OR3_3x_526018.db
+ECDB dir        : ./
+Top Cell        : OR3_3x
+CDL netlist     : svdb/OR3_3x.net
+Layer map file  : svdb/OR3_3x.ecdbmap
+Text map file   : svdb/OR3_3x.ports
+Dependency map  : OR3_3x.lmap.perc
+Lvs file        : svdb/OR3_3x.lvsfile
+Float net file  : .OR3_3x.info.softchk
+threads         : 32
+debug           : 0
+Source Library  : OR3_3x_526018

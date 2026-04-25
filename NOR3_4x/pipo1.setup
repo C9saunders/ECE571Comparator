@@ -1,0 +1,16 @@
+case	"preserve"
+convertDot	"node"
+convertPin	"geometry"
+hierDepth	32
+labelCase	"preserve"
+labelDepth	32
+library	"Lab1"
+logFile	"/top/students/UNGRAD/ECE/templo/home/ECE571/TSMC_Cadence/Lab1/NOR3_4/PIPO1.LOG"
+maxVertices	2048
+pinAttNum	0
+runDir	"/top/students/UNGRAD/ECE/templo/home/ECE571/TSMC_Cadence/Lab1/NOR3_4"
+strmFile	"/top/students/UNGRAD/ECE/templo/home/ECE571/TSMC_Cadence/Lab1/NOR3_4/NOR3_3.gds.gz"
+strmVersion	5
+techLib	"Lab1"
+topCell	"NOR3_3"
+view	"layout"

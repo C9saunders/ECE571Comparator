@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      C837269287
+HostName                       linuxe3.engr.colostate.edu
+ProcessIdentifier              2980207
+ProcessCreationTime_UTC        1776458449
+ProcessCreationTime_Readable   Fri Apr 17 14:40:49 2026 MDT
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /top/students/GRAD/ECE/C837269287/home/Habib_ECE451_2024/TSMC_Cadence/LAB1/2_1mux_3_Rasha/layout/layout.oa.cdslck
+TimeEditLocked                 Fri Apr 17 14:41:13 2026 MDT

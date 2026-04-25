@@ -1,0 +1,15 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "NOR3_3"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  globalList "gnd! vdd!"
+  hierDelim "."
+  netlistDir "/top/students/UNGRAD/ECE/templo/home/ECE571/TSMC_Cadence/Lab1/NOR3_3/"
+ )
+( model
+( "Lab1/NOR3_3/schematic" "NOR3_3" )
+ )
+( "NOR3_3" "ihnl/cds0/map" )
+ )

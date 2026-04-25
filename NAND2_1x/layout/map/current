@@ -1,0 +1,15 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "NAND2_2x"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  globalList "gnd! vdd!"
+  hierDelim "."
+  netlistDir "/top/students/UNGRAD/ECE/kparham0/home/ECE571/TSMC_Cadence/Lab2/NAND2_1x/layout/"
+ )
+( model
+( "Lab2/NAND2_2x/schematic" "NAND2_2x" )
+ )
+( "NAND2_2x" "ihnl/cds0/map" )
+ )

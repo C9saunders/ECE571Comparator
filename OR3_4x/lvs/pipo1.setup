@@ -1,0 +1,16 @@
+case	"preserve"
+convertDot	"node"
+convertPin	"geometry"
+hierDepth	32
+labelCase	"preserve"
+labelDepth	32
+library	"ECE571_11_OR3"
+logFile	"/top/students/UNGRAD/ECE/scrowl/home/ECE571/TSMC_Cadence/ECE571_11_OR3/OR3_4x/lvs/PIPO1.LOG"
+maxVertices	2048
+pinAttNum	0
+runDir	"/top/students/UNGRAD/ECE/scrowl/home/ECE571/TSMC_Cadence/ECE571_11_OR3/OR3_4x/lvs"
+strmFile	"/top/students/UNGRAD/ECE/scrowl/home/ECE571/TSMC_Cadence/ECE571_11_OR3/OR3_4x/lvs/OR3_4x.gds.gz"
+strmVersion	5
+techLib	"ECE571_11_OR3"
+topCell	"OR3_4x"
+view	"layout"

@@ -1,0 +1,34 @@
+##############################################################################################################
+#####  
+#####                                       Pegasus LVS COMPARISON
+#####  
+#####  Version                       :   23.14-s006
+#####  NVN Run Start                 :   Fri Apr 10 15:15:57 2026
+#####  ERC Summary File              :   OR3_3x.sum
+#####  Extraction Report File        :   OR3_3x.rep
+#####  Comparison Report File        :   OR3_3x.rep.cls
+#####  Top Cell                      :   OR3_3x  <vs>  OR3_3x
+#####  
+#####  Run Result                    :   MATCH
+#####  
+#####  Run Summary                   :   [INFO]  ERC Results: Empty, non-executed ERC operations exist (refer to ERC Summary File)
+#####                                :   [INFO]  Extraction Clean
+#####  
+#####  Layout Design                 :   ECE571_10_OR3 OR3_3x layout
+#####  Schematic File                :   /top/students/UNGRAD/ECE/scrowl/home/ECE571/TSMC_Cadence/ECE571_10_OR3/OR3_3x/lvs/OR3_3x.cdl (cdl)
+#####  Rules File                    :   /top/students/UNGRAD/ECE/scrowl/home/ECE571/TSMC_Cadence/tsmc18rf_lvs.rul
+#####  Pin Swap File                 :   OR3_3x.rep.cps
+#####  
+#####  Extraction CPU Time           :   0h 0m 2s - (2s)
+#####  Extraction Exec Time          :   0h 0m 2s - (2s)
+#####  Extraction Peak Memory Usage  :   32.00MB
+#####  NVN CPU Time                  :   0h 0m 0s - (0s)                 
+#####  NVN Exec Time                 :   0h 0m 1s - (1s)                 
+#####  NVN Peak Memory Usage         :   336.80MB
+#####  LVS Total CPU Time            :   0h 0m 2s - (2s)                 
+#####  LVS Total Exec Time           :   0h 0m 3s - (3s)                 
+#####  LVS Total Peak Memory Usage   :   336.80MB
+#####  
+##############################################################################################################
+
+

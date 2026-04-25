@@ -1,0 +1,12 @@
+text_depth -primary;
+virtual_connect -colon no;
+virtual_connect -semicolon_as_colon yes;
+virtual_connect -noname;
+virtual_connect -report no;
+virtual_connect -depth -primary;
+report_summary -drc "OR3_4x.sum" -replace;
+max_results -drc 1000;
+results_db -drc "/top/students/UNGRAD/ECE/scrowl/home/ECE571/TSMC_Cadence/ECE571_11_OR3/OR3_4x/drc/OR3_4x.drc_errors.ascii" -ascii;
+abort_on_layout_error yes;
+layout_format gdsii;
+layout_path "/top/students/UNGRAD/ECE/scrowl/home/ECE571/TSMC_Cadence/ECE571_11_OR3/OR3_4x/drc/OR3_4x.gds.gz";

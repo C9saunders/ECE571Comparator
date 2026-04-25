@@ -1,0 +1,8 @@
+# SVDB: Port Table (ports)
+# SVDB: Layout Primary NOR3_3
+B 3 B 9520 3710 metal1
+Q 6 Q 23870 2660 metal1
+gnd! 1 gnd! 10590 20 metal1
+A 4 A 1270 4090 metal1
+C 2 C 17780 3720 metal1
+vdd! 5 vdd! 10600 14000 metal1

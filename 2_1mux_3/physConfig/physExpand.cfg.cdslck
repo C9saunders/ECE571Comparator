@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      skhad27
+HostName                       linuxg2.engr.colostate.edu
+ProcessIdentifier              3830278
+ProcessCreationTime_UTC        1744985683
+ProcessCreationTime_Readable   Fri Apr 18 08:14:43 2025 MDT
+AppIdentifier                  /usr/local/cadence-2024/IC231/tools.lnx86/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       
+FilePathUsedToEditLock         /top/students/GRAD/ECE/skhad27/home/ECE571/TSMC_Cadence/lab1/2_1mux_3/physConfig/physExpand.cfg
+TimeEditLocked                 Fri Apr 25 06:48:19 2025 MDT

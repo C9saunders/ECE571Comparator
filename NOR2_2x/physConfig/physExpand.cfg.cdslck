@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      aeicher
+HostName                       linuxe4.engr.colostate.edu
+ProcessIdentifier              3932384
+ProcessCreationTime_UTC        1776223162
+ProcessCreationTime_Readable   Tue Apr 14 21:19:22 2026 MDT
+AppIdentifier                  /usr/local/cadence-2024/IC231/tools.lnx86/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       
+FilePathUsedToEditLock         /net/nasstore/students/UNGRAD/UE/aeicher/home/ECE571/TSMC_Cadence/ECE571_5_NOR2/NOR2_2x/physConfig/physExpand.cfg
+TimeEditLocked                 Tue Apr 14 22:15:39 2026 MDT
