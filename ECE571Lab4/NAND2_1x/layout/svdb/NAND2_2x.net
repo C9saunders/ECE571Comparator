@@ -1,0 +1,21 @@
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* CDL Netlist:                                              *
+*                                                           *
+* Cell Name  : NAND2_2x                                     *
+* Netlisted  : Fri Apr 10 16:45:24 2026                     *
+* Pegasus Version: 23.14-s006 Thu Jan 25 18:41:38 PST 2024  *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+*.LDD
+*.DEVTMPLT 0 MN(N) ngate tndiff(D) poly(G) tndiff(S) psub(B)
+*.DEVTMPLT 1 MP(P) pgate tpdiff(D) poly(G) tpdiff(S) nxwell(B)
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: NAND2_2x                                        *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt NAND2_2x A B gnd! out vdd!
+** N=6 EP=5 FDC=4
+M0 6 A out gnd! N L=1.8e-07 W=3.5e-06 $X=750 $Y=850 $dt=0
+M1 gnd! B 6 gnd! N L=1.8e-07 W=3.5e-06 $X=1550 $Y=850 $dt=0
+M2 out A vdd! vdd! P L=1.8e-07 W=5e-06 $X=750 $Y=7850 $dt=1
+M3 vdd! B out vdd! P L=1.8e-07 W=5e-06 $X=1550 $Y=7850 $dt=1
+.ends NAND2_2x

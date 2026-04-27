@@ -1,0 +1,40 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  Lab2
+* Top Cell Name: NAND2_2x
+* View Name:     schematic
+* Netlisted on:  Apr 10 16:45:17 2026
+************************************************************************
+
+*.BIPOLAR
+*.RESI = 2000 
+*.RESVAL
+*.CAPVAL
+*.DIOPERI
+*.DIOAREA
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+*.GLOBAL gnd!
++        vdd!
+
+*.PIN gnd!
+*+    vdd!
+
+************************************************************************
+* Library Name: Lab2
+* Cell Name:    NAND2_2x
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT NAND2_2x A B out
+*.PININFO A:I B:I out:O
+MM1 out B vdd! vdd! P l=180.0n w=5u m=1
+MM0 out A vdd! vdd! P l=180.0n w=5u m=1
+MM3 net9 B gnd! gnd! N l=180.0n w=3.5u m=1
+MM2 out A net9 gnd! N l=180.0n w=3.5u m=1
+.ENDS
+
