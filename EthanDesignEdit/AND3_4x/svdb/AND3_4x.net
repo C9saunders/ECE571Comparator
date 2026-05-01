@@ -1,0 +1,60 @@
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* CDL Netlist:                                              *
+*                                                           *
+* Cell Name  : AND3_4x                                      *
+* Netlisted  : Fri Apr 17 21:47:37 2026                     *
+* Pegasus Version: 23.14-s006 Thu Jan 25 18:41:38 PST 2024  *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+*.LDD
+*.DEVTMPLT 0 MN(N) ngate tndiff(D) poly(G) tndiff(S) psub(B)
+*.DEVTMPLT 1 MP(P) pgate tpdiff(D) poly(G) tpdiff(S) nxwell(B)
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: pmos2v_CDNS_776484048320                        *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt pmos2v_CDNS_776484048320 S D 3 4
+** N=4 EP=4 FDC=1
+M0 D 3 S S P L=1.8e-07 W=4e-06 $X=0 $Y=0 $dt=1
+.ends pmos2v_CDNS_776484048320
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: nmos2v_CDNS_776484048321                        *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt nmos2v_CDNS_776484048321 S D 3 4
+** N=4 EP=4 FDC=1
+M0 D 3 S 4 N L=1.8e-07 W=4e-06 $X=0 $Y=0 $dt=0
+.ends nmos2v_CDNS_776484048321
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: nmos2v_CDNS_776484048322                        *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt nmos2v_CDNS_776484048322 S D 3
+** N=3 EP=3 FDC=1
+M0 D 3 S S N L=1.8e-07 W=5e-06 $X=0 $Y=0 $dt=0
+.ends nmos2v_CDNS_776484048322
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: pmos2v_CDNS_776484048323                        *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt pmos2v_CDNS_776484048323 S D mustConnect_1_S mustConnect_0_D mustConnect_0_S 6 7 8
+** N=8 EP=8 FDC=4
+M0 D 6 S 7 P L=1.8e-07 W=5e-06 $X=0 $Y=0 $dt=1
+M1 mustConnect_1_S 6 D 7 P L=1.8e-07 W=5e-06 $X=720 $Y=0 $dt=1
+M2 mustConnect_0_D 6 mustConnect_1_S 7 P L=1.8e-07 W=5e-06 $X=1440 $Y=0 $dt=1
+M3 mustConnect_0_S 6 mustConnect_0_D 7 P L=1.8e-07 W=5e-06 $X=2160 $Y=0 $dt=1
+.ends pmos2v_CDNS_776484048323
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: AND3_4x                                         *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt AND3_4x A B C Q vdd vss
+** N=9 EP=6 FDC=11
+X0 vdd 2 A vss pmos2v_CDNS_776484048320 $T=1100 8650 0 0 $X=190 $Y=8220
+X1 vdd 2 B vss pmos2v_CDNS_776484048320 $T=4600 8600 0 0 $X=3690 $Y=8170
+X2 vdd 2 C vss pmos2v_CDNS_776484048320 $T=8300 8600 0 0 $X=7390 $Y=8170
+X3 7 2 A vss nmos2v_CDNS_776484048321 $T=1880 5960 0 180 $X=1040 $Y=1610
+X4 8 7 B vss nmos2v_CDNS_776484048321 $T=4780 5970 0 180 $X=3940 $Y=1620
+X5 vss 8 C vss nmos2v_CDNS_776484048321 $T=8180 5900 0 180 $X=7340 $Y=1550
+X6 vss Q 2 nmos2v_CDNS_776484048322 $T=14100 1400 0 0 $X=13440 $Y=1050
+X7 vdd Q vdd Q vdd 2 vdd vss pmos2v_CDNS_776484048323 $T=13000 7600 0 0 $X=12090 $Y=7170
+.ends AND3_4x

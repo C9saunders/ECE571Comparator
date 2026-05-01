@@ -1,0 +1,73 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version IC23.1-64b 02/20/2024 22:50 (cpgbld15) $
+          : sub-version  IC23.1-64b.ISR5.29 
+Started at: 17-Apr-2026  21:47:28
+User Name : kaijbren
+Host Name : linuxa3.engr.colostate.edu
+Directory : /top/students/UNGRAD/ECE/kaijbren/home/ECE571/TSMC_Cadence
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+WARNING (XSTRM-20): Output Stream file '/top/students/UNGRAD/ECE/kaijbren/home/ECE571/TSMC_Cadence/ECE571_13_AND3/AND3_4x/AND3_4x.gds.gz' already exists. It will be overwritten.
+INFO (XSTRM-288): Performing automatic layer mapping because either the layer mapping information is not provided or the XST_AUTO_LM  value is used with the '-layerMap' option. Additionally, the  'xStrmOut_layerMap.txt' file has been generated and the mapping information has been added to it.
+INFO (XSTRM-427): Based on current hardware configuration, running XStream Out translation in multi-threaded mode with 4 threads.
+INFO (XSTRM-280): The output file will be a compressed file because the file name has extension .gz
+INFO (XSTRM-162): You have not used the '-viaMap' option. If the OpenAccess design has native oaVia instances, use the '-viaMap' option for preserving oaVia instances in a XStream Out - XStream In round trip. Using the '-viaMap' option improves performance and VM usage of applications using the Streamed-In design.
+
+Summary of Options :
+library                                 ECE571_13_AND3
+strmFile                                /top/students/UNGRAD/ECE/kaijbren/home/ECE571/TSMC_Cadence/ECE571_13_AND3/AND3_4x/AND3_4x.gds.gz
+topCell                                 AND3_4x
+view                                    layout
+runDir                                  /top/students/UNGRAD/ECE/kaijbren/home/ECE571/TSMC_Cadence/ECE571_13_AND3/AND3_4x
+logFile                                 /top/students/UNGRAD/ECE/kaijbren/home/ECE571/TSMC_Cadence/ECE571_13_AND3/AND3_4x/PIPO1.LOG
+techLib                                 ECE571_13_AND3
+hierDepth                               32
+maxVertices                             2048
+userSkillFile                           /top/students/UNGRAD/ECE/kaijbren/home/ECE571/TSMC_Cadence/ECE571_13_AND3/AND3_4x/strmout.il
+labelDepth                              32
+case                                    Preserve
+convertDot                              node
+convertPin                              geometryAndText
+
+INFO (XSTRM-180): You have not used the '-objectMap' option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the '-objectMap' option to translate/preserve these objects using XStream.
+INFO (XSTRM-223): 1. Translating cellview tsmc18rf/pmos2v/layout as STRUCTURE pmos2v_CDNS_776484048320.
+WARNING (XSTRM-315): The cellview 'tsmc18rf/pmos2v/layout' has a label with multiple lines. This label will be translated as is. If a multiple lines label is not required, correct the label in the source file.
+INFO (XSTRM-223): 2. Translating cellview tsmc18rf/nmos2v/layout as STRUCTURE nmos2v_CDNS_776484048321.
+WARNING (XSTRM-315): The cellview 'tsmc18rf/nmos2v/layout' has a label with multiple lines. This label will be translated as is. If a multiple lines label is not required, correct the label in the source file.
+INFO (XSTRM-223): 3. Translating cellview tsmc18rf/nmos2v/layout as STRUCTURE nmos2v_CDNS_776484048322.
+WARNING (XSTRM-315): The cellview 'tsmc18rf/nmos2v/layout' has a label with multiple lines. This label will be translated as is. If a multiple lines label is not required, correct the label in the source file.
+INFO (XSTRM-223): 4. Translating cellview tsmc18rf/pmos2v/layout as STRUCTURE pmos2v_CDNS_776484048323.
+WARNING (XSTRM-315): The cellview 'tsmc18rf/pmos2v/layout' has a label with multiple lines. This label will be translated as is. If a multiple lines label is not required, correct the label in the source file.
+INFO (XSTRM-223): 5. Translating cellview ECE571_13_AND3/AND3_4x/layout as STRUCTURE AND3_4x.
+
+Summary of Objects Translated:
+	Scalar Instances:                       8
+	Array Instances:                        0
+	Polygons:                               0
+	Paths:                                  0
+	Rectangles:                             286
+	Lines:                                  0
+	Arcs:                                   0
+	Donuts:                                 0
+	Dots:                                   0
+	Ellipses:                               0
+	Boundaries:                             0
+	Area Blockages:                         0
+	Layer Blockages:                        0
+	Area Halos:                             0
+	Markers:                                0
+	Rows:                                   0
+	Stitch:                                 0
+	Standard Vias                           0
+	Custom Vias:                            0
+	CdsGen Vias:                            0
+	Pathsegs:                               0
+	Text:                                   43
+	TextDisplay:                            0
+	Cells:                                  5
+
+Elapsed Time: 0.7s   User Time: 0.4s   CPU Time: 0.1s   Peak VM: 50736KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '5' warning(s) found.

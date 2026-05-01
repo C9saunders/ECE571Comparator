@@ -1,0 +1,2302 @@
+;| version 1
+text text_poly attach poly
+text text_metal1 attach metal1
+text text_metal2 attach metal2
+text text_metal3 attach metal3
+layer gate
+layer vargt
+layer bvargt
+connect ntap tndiff
+connect ptap tpdiff
+connect crt_poly poly
+connect ell_emit tpdiff
+connect ell_nbase tndiff by nplug
+connect ell_ncoll nxwell_npn
+connect ell_nemit tndiff
+connect emit tpdiff
+connect emit_od2 tpdiff
+connect metal1 c2poly by pl2co
+connect metal1 crt_poly by polyCont
+connect metal1 d_tndiff by odCont
+connect metal1 d_tpdiff by odCont
+connect metal1 ell_emit by odCont
+connect metal1 ell_nemit by odCont
+connect metal1 emit by odCont
+connect metal1 emit_od2 by odCont
+connect metal1 fggate1 by fgtCont
+connect metal1 hvndfs by odCont
+connect metal1 hvnwdpwnbl60_emit by odCont
+connect metal1 hvpdfs by odCont
+connect metal1 indm1c
+connect metal1 lcesdm by odCont
+connect metal1 lcesdp by odCont
+connect metal1 ldpwhvnwpsub_emit by odCont
+connect metal1 nemit by odCont
+connect metal1 nemit_od2 by odCont
+connect metal1 nhvpwdnw_4t_emit by odCont
+connect metal1 nhvpwnbl60_emit by odCont
+connect metal1 nhvpwnbl_emit by odCont
+connect metal1 nldpwhvnw_emit by odCont
+connect metal1 nlvpwnbl60_emit by odCont
+connect metal1 nlvpwnbl_emit by odCont
+connect metal1 npwnbl_emit by odCont
+connect metal1 ntgdrain by odCont
+connect metal1 nw_bg_diff by odCont
+connect metal1 nwhvpwnbl60_emit by odCont
+connect metal1 nwhvpwnbl_emit by odCont
+connect metal1 pddhvnwpsub_emit by odCont
+connect metal1 phvnwdpw60_emit by odCont
+connect metal1 phvnwpsub_emit by odCont
+connect metal1 pidiff by odCont
+connect metal1 poly by polyCont
+connect metal1 poly_rf by polyCont
+connect metal1 pwhvnwdpw_emit by odCont
+connect metal1 rndd_term by odCont
+connect metal1 rpdd_term by odCont
+connect metal1 s_tndiff by odCont
+connect metal1 s_tpdiff by odCont
+connect metal1 sbd_hv_dio by odCont
+connect metal1 schottky_n by odCont
+connect metal1 schottky_p by odCont
+connect metal1 tndiff by odCont
+connect metal1 tpdiff by odCont
+connect metal1 ull_emit by odCont
+connect metal1 ull_nemit by odCont
+connect metal2 metal1 by VIA1
+connect metal2 tfr by SICR_V1
+connect metal3 cmm by cmm_via
+connect metal3 ctm by ctm_via
+connect metal3 indm3m
+connect metal3 indm3p
+connect metal3 metal2 by VIA2
+connect metal3 rfpad_r
+connect nbase tndiff by nplug
+connect nbase_od2 tndiff by nplug
+connect ncoll nxwell_npn
+connect ncoll_od2 nxwell_npn
+connect nemit tndiff
+connect nemit_od2 tndiff
+connect pbase tpdiff by pplug
+connect pbase_od2 tpdiff by pplug
+connect poly_rf poly
+connect tiod tndiff
+connect tiod tpdiff
+connect tndiff d_tpdiff
+connect tndiff ell_emit
+connect tndiff emit
+connect tndiff emit_od2
+connect tndiff hvpdfs
+connect tndiff lcesdp
+connect tndiff ldpwhvnwpsub_emit
+connect tndiff nps2 by nplug
+connect tndiff nxwell_npn by nplug
+connect tndiff pddhvnwpsub_emit
+connect tndiff phvnwdpw60_emit
+connect tndiff phvnwpsub_emit
+connect tndiff pwhvnwdpw_emit
+connect tndiff rpdd_term
+connect tndiff s_tpdiff
+connect tndiff schottky_p
+connect tndiff tpdiff
+connect tndiff ull_emit
+connect tndiff ydio
+connect tndiff ydio_hole
+connect tpdiff d_tndiff
+connect tpdiff ell_nemit
+connect tpdiff hvndfs
+connect tpdiff hvnwdpwnbl60_emit
+connect tpdiff lcesdm
+connect tpdiff nemit
+connect tpdiff nemit_od2
+connect tpdiff nhvpwdnw_4t_emit
+connect tpdiff nhvpwnbl60_emit
+connect tpdiff nhvpwnbl_emit
+connect tpdiff nldpwhvnw_emit
+connect tpdiff nlvpwnbl60_emit
+connect tpdiff nlvpwnbl_emit
+connect tpdiff npwnbl_emit
+connect tpdiff ntgdrain
+connect tpdiff nwhvpwnbl60_emit
+connect tpdiff nwhvpwnbl_emit
+connect tpdiff rndd_term
+connect tpdiff s_tndiff
+connect tpdiff schottky_n
+connect tpdiff ull_nemit
+connect ull_emit tpdiff
+connect ull_nbase tndiff by nplug
+connect ull_ncoll nxwell_npn
+connect ull_nemit tndiff
+connect tndiff d_tndiff
+connect ell_nbase d_tndiff by nplug
+connect ell_nemit d_tndiff
+connect nbase d_tndiff by nplug
+connect nbase_od2 d_tndiff by nplug
+connect nemit d_tndiff
+connect nemit_od2 d_tndiff
+connect tiod d_tndiff
+connect d_tndiff d_tpdiff
+connect d_tndiff ell_emit
+connect d_tndiff emit
+connect d_tndiff emit_od2
+connect d_tndiff hvpdfs
+connect d_tndiff lcesdp
+connect d_tndiff ldpwhvnwpsub_emit
+connect d_tndiff nps2 by nplug
+connect d_tndiff nxwell_npn by nplug
+connect d_tndiff pddhvnwpsub_emit
+connect d_tndiff phvnwdpw60_emit
+connect d_tndiff phvnwpsub_emit
+connect d_tndiff pwhvnwdpw_emit
+connect d_tndiff rpdd_term
+connect d_tndiff s_tpdiff
+connect d_tndiff schottky_p
+connect d_tndiff ull_emit
+connect d_tndiff ydio
+connect d_tndiff ydio_hole
+connect ull_nbase d_tndiff by nplug
+connect ull_nemit d_tndiff
+connect tndiff hvndfs
+connect ell_nbase hvndfs by nplug
+connect ell_nemit hvndfs
+connect nbase hvndfs by nplug
+connect nbase_od2 hvndfs by nplug
+connect nemit hvndfs
+connect nemit_od2 hvndfs
+connect tiod hvndfs
+connect hvndfs d_tpdiff
+connect hvndfs ell_emit
+connect hvndfs emit
+connect hvndfs emit_od2
+connect hvndfs hvpdfs
+connect hvndfs lcesdp
+connect hvndfs ldpwhvnwpsub_emit
+connect hvndfs nps2 by nplug
+connect hvndfs nxwell_npn by nplug
+connect hvndfs pddhvnwpsub_emit
+connect hvndfs phvnwdpw60_emit
+connect hvndfs phvnwpsub_emit
+connect hvndfs pwhvnwdpw_emit
+connect hvndfs rpdd_term
+connect hvndfs s_tpdiff
+connect hvndfs schottky_p
+connect hvndfs ull_emit
+connect hvndfs ydio
+connect hvndfs ydio_hole
+connect ull_nbase hvndfs by nplug
+connect ull_nemit hvndfs
+connect tndiff lcesdm
+connect ell_nbase lcesdm by nplug
+connect ell_nemit lcesdm
+connect nbase lcesdm by nplug
+connect nbase_od2 lcesdm by nplug
+connect nemit lcesdm
+connect nemit_od2 lcesdm
+connect tiod lcesdm
+connect lcesdm d_tpdiff
+connect lcesdm ell_emit
+connect lcesdm emit
+connect lcesdm emit_od2
+connect lcesdm hvpdfs
+connect lcesdm lcesdp
+connect lcesdm ldpwhvnwpsub_emit
+connect lcesdm nps2 by nplug
+connect lcesdm nxwell_npn by nplug
+connect lcesdm pddhvnwpsub_emit
+connect lcesdm phvnwdpw60_emit
+connect lcesdm phvnwpsub_emit
+connect lcesdm pwhvnwdpw_emit
+connect lcesdm rpdd_term
+connect lcesdm s_tpdiff
+connect lcesdm schottky_p
+connect lcesdm ull_emit
+connect lcesdm ydio
+connect lcesdm ydio_hole
+connect ull_nbase lcesdm by nplug
+connect ull_nemit lcesdm
+connect tndiff rndd_term
+connect ell_nbase rndd_term by nplug
+connect ell_nemit rndd_term
+connect nbase rndd_term by nplug
+connect nbase_od2 rndd_term by nplug
+connect nemit rndd_term
+connect nemit_od2 rndd_term
+connect tiod rndd_term
+connect rndd_term d_tpdiff
+connect rndd_term ell_emit
+connect rndd_term emit
+connect rndd_term emit_od2
+connect rndd_term hvpdfs
+connect rndd_term lcesdp
+connect rndd_term ldpwhvnwpsub_emit
+connect rndd_term nps2 by nplug
+connect rndd_term nxwell_npn by nplug
+connect rndd_term pddhvnwpsub_emit
+connect rndd_term phvnwdpw60_emit
+connect rndd_term phvnwpsub_emit
+connect rndd_term pwhvnwdpw_emit
+connect rndd_term rpdd_term
+connect rndd_term s_tpdiff
+connect rndd_term schottky_p
+connect rndd_term ull_emit
+connect rndd_term ydio
+connect rndd_term ydio_hole
+connect ull_nbase rndd_term by nplug
+connect ull_nemit rndd_term
+connect tndiff s_tndiff
+connect ell_nbase s_tndiff by nplug
+connect ell_nemit s_tndiff
+connect nbase s_tndiff by nplug
+connect nbase_od2 s_tndiff by nplug
+connect nemit s_tndiff
+connect nemit_od2 s_tndiff
+connect tiod s_tndiff
+connect s_tndiff d_tpdiff
+connect s_tndiff ell_emit
+connect s_tndiff emit
+connect s_tndiff emit_od2
+connect s_tndiff hvpdfs
+connect s_tndiff lcesdp
+connect s_tndiff ldpwhvnwpsub_emit
+connect s_tndiff nps2 by nplug
+connect s_tndiff nxwell_npn by nplug
+connect s_tndiff pddhvnwpsub_emit
+connect s_tndiff phvnwdpw60_emit
+connect s_tndiff phvnwpsub_emit
+connect s_tndiff pwhvnwdpw_emit
+connect s_tndiff rpdd_term
+connect s_tndiff s_tpdiff
+connect s_tndiff schottky_p
+connect s_tndiff ull_emit
+connect s_tndiff ydio
+connect s_tndiff ydio_hole
+connect ull_nbase s_tndiff by nplug
+connect ull_nemit s_tndiff
+connect tndiff schottky_n
+connect ell_nbase schottky_n by nplug
+connect ell_nemit schottky_n
+connect nbase schottky_n by nplug
+connect nbase_od2 schottky_n by nplug
+connect nemit schottky_n
+connect nemit_od2 schottky_n
+connect tiod schottky_n
+connect schottky_n d_tpdiff
+connect schottky_n ell_emit
+connect schottky_n emit
+connect schottky_n emit_od2
+connect schottky_n hvpdfs
+connect schottky_n lcesdp
+connect schottky_n ldpwhvnwpsub_emit
+connect schottky_n nps2 by nplug
+connect schottky_n nxwell_npn by nplug
+connect schottky_n pddhvnwpsub_emit
+connect schottky_n phvnwdpw60_emit
+connect schottky_n phvnwpsub_emit
+connect schottky_n pwhvnwdpw_emit
+connect schottky_n rpdd_term
+connect schottky_n s_tpdiff
+connect schottky_n schottky_p
+connect schottky_n ull_emit
+connect schottky_n ydio
+connect schottky_n ydio_hole
+connect ull_nbase schottky_n by nplug
+connect ull_nemit schottky_n
+connect ell_nbase ell_nemit by nplug
+connect nbase ell_nemit by nplug
+connect nbase_od2 ell_nemit by nplug
+connect nemit ell_nemit
+connect nemit_od2 ell_nemit
+connect tiod ell_nemit
+connect ell_nemit d_tpdiff
+connect ell_nemit ell_emit
+connect ell_nemit emit
+connect ell_nemit emit_od2
+connect ell_nemit hvpdfs
+connect ell_nemit lcesdp
+connect ell_nemit ldpwhvnwpsub_emit
+connect ell_nemit nps2 by nplug
+connect ell_nemit nxwell_npn by nplug
+connect ell_nemit pddhvnwpsub_emit
+connect ell_nemit phvnwdpw60_emit
+connect ell_nemit phvnwpsub_emit
+connect ell_nemit pwhvnwdpw_emit
+connect ell_nemit rpdd_term
+connect ell_nemit s_tpdiff
+connect ell_nemit schottky_p
+connect ell_nemit ull_emit
+connect ell_nemit ydio
+connect ell_nemit ydio_hole
+connect ull_nbase ell_nemit by nplug
+connect ull_nemit ell_nemit
+connect tndiff hvnwdpwnbl60_emit
+connect ell_nbase hvnwdpwnbl60_emit by nplug
+connect ell_nemit hvnwdpwnbl60_emit
+connect nbase hvnwdpwnbl60_emit by nplug
+connect nbase_od2 hvnwdpwnbl60_emit by nplug
+connect nemit hvnwdpwnbl60_emit
+connect nemit_od2 hvnwdpwnbl60_emit
+connect tiod hvnwdpwnbl60_emit
+connect hvnwdpwnbl60_emit d_tpdiff
+connect hvnwdpwnbl60_emit ell_emit
+connect hvnwdpwnbl60_emit emit
+connect hvnwdpwnbl60_emit emit_od2
+connect hvnwdpwnbl60_emit hvpdfs
+connect hvnwdpwnbl60_emit lcesdp
+connect hvnwdpwnbl60_emit ldpwhvnwpsub_emit
+connect hvnwdpwnbl60_emit nps2 by nplug
+connect hvnwdpwnbl60_emit nxwell_npn by nplug
+connect hvnwdpwnbl60_emit pddhvnwpsub_emit
+connect hvnwdpwnbl60_emit phvnwdpw60_emit
+connect hvnwdpwnbl60_emit phvnwpsub_emit
+connect hvnwdpwnbl60_emit pwhvnwdpw_emit
+connect hvnwdpwnbl60_emit rpdd_term
+connect hvnwdpwnbl60_emit s_tpdiff
+connect hvnwdpwnbl60_emit schottky_p
+connect hvnwdpwnbl60_emit ull_emit
+connect hvnwdpwnbl60_emit ydio
+connect hvnwdpwnbl60_emit ydio_hole
+connect ull_nbase hvnwdpwnbl60_emit by nplug
+connect ull_nemit hvnwdpwnbl60_emit
+connect ell_nbase nemit by nplug
+connect nbase nemit by nplug
+connect nbase_od2 nemit by nplug
+connect nemit_od2 nemit
+connect tiod nemit
+connect nemit d_tpdiff
+connect nemit ell_emit
+connect nemit emit
+connect nemit emit_od2
+connect nemit hvpdfs
+connect nemit lcesdp
+connect nemit ldpwhvnwpsub_emit
+connect nemit nps2 by nplug
+connect nemit nxwell_npn by nplug
+connect nemit pddhvnwpsub_emit
+connect nemit phvnwdpw60_emit
+connect nemit phvnwpsub_emit
+connect nemit pwhvnwdpw_emit
+connect nemit rpdd_term
+connect nemit s_tpdiff
+connect nemit schottky_p
+connect nemit ull_emit
+connect nemit ydio
+connect nemit ydio_hole
+connect ull_nbase nemit by nplug
+connect ull_nemit nemit
+connect ell_nbase nemit_od2 by nplug
+connect nbase nemit_od2 by nplug
+connect nbase_od2 nemit_od2 by nplug
+connect tiod nemit_od2
+connect nemit_od2 d_tpdiff
+connect nemit_od2 ell_emit
+connect nemit_od2 emit
+connect nemit_od2 emit_od2
+connect nemit_od2 hvpdfs
+connect nemit_od2 lcesdp
+connect nemit_od2 ldpwhvnwpsub_emit
+connect nemit_od2 nps2 by nplug
+connect nemit_od2 nxwell_npn by nplug
+connect nemit_od2 pddhvnwpsub_emit
+connect nemit_od2 phvnwdpw60_emit
+connect nemit_od2 phvnwpsub_emit
+connect nemit_od2 pwhvnwdpw_emit
+connect nemit_od2 rpdd_term
+connect nemit_od2 s_tpdiff
+connect nemit_od2 schottky_p
+connect nemit_od2 ull_emit
+connect nemit_od2 ydio
+connect nemit_od2 ydio_hole
+connect ull_nbase nemit_od2 by nplug
+connect ull_nemit nemit_od2
+connect tndiff nhvpwnbl60_emit
+connect ell_nbase nhvpwnbl60_emit by nplug
+connect ell_nemit nhvpwnbl60_emit
+connect nbase nhvpwnbl60_emit by nplug
+connect nbase_od2 nhvpwnbl60_emit by nplug
+connect nemit nhvpwnbl60_emit
+connect nemit_od2 nhvpwnbl60_emit
+connect tiod nhvpwnbl60_emit
+connect nhvpwnbl60_emit d_tpdiff
+connect nhvpwnbl60_emit ell_emit
+connect nhvpwnbl60_emit emit
+connect nhvpwnbl60_emit emit_od2
+connect nhvpwnbl60_emit hvpdfs
+connect nhvpwnbl60_emit lcesdp
+connect nhvpwnbl60_emit ldpwhvnwpsub_emit
+connect nhvpwnbl60_emit nps2 by nplug
+connect nhvpwnbl60_emit nxwell_npn by nplug
+connect nhvpwnbl60_emit pddhvnwpsub_emit
+connect nhvpwnbl60_emit phvnwdpw60_emit
+connect nhvpwnbl60_emit phvnwpsub_emit
+connect nhvpwnbl60_emit pwhvnwdpw_emit
+connect nhvpwnbl60_emit rpdd_term
+connect nhvpwnbl60_emit s_tpdiff
+connect nhvpwnbl60_emit schottky_p
+connect nhvpwnbl60_emit ull_emit
+connect nhvpwnbl60_emit ydio
+connect nhvpwnbl60_emit ydio_hole
+connect ull_nbase nhvpwnbl60_emit by nplug
+connect ull_nemit nhvpwnbl60_emit
+connect tndiff nhvpwnbl_emit
+connect ell_nbase nhvpwnbl_emit by nplug
+connect ell_nemit nhvpwnbl_emit
+connect nbase nhvpwnbl_emit by nplug
+connect nbase_od2 nhvpwnbl_emit by nplug
+connect nemit nhvpwnbl_emit
+connect nemit_od2 nhvpwnbl_emit
+connect tiod nhvpwnbl_emit
+connect nhvpwnbl_emit d_tpdiff
+connect nhvpwnbl_emit ell_emit
+connect nhvpwnbl_emit emit
+connect nhvpwnbl_emit emit_od2
+connect nhvpwnbl_emit hvpdfs
+connect nhvpwnbl_emit lcesdp
+connect nhvpwnbl_emit ldpwhvnwpsub_emit
+connect nhvpwnbl_emit nps2 by nplug
+connect nhvpwnbl_emit nxwell_npn by nplug
+connect nhvpwnbl_emit pddhvnwpsub_emit
+connect nhvpwnbl_emit phvnwdpw60_emit
+connect nhvpwnbl_emit phvnwpsub_emit
+connect nhvpwnbl_emit pwhvnwdpw_emit
+connect nhvpwnbl_emit rpdd_term
+connect nhvpwnbl_emit s_tpdiff
+connect nhvpwnbl_emit schottky_p
+connect nhvpwnbl_emit ull_emit
+connect nhvpwnbl_emit ydio
+connect nhvpwnbl_emit ydio_hole
+connect ull_nbase nhvpwnbl_emit by nplug
+connect ull_nemit nhvpwnbl_emit
+connect tndiff nldpwhvnw_emit
+connect ell_nbase nldpwhvnw_emit by nplug
+connect ell_nemit nldpwhvnw_emit
+connect nbase nldpwhvnw_emit by nplug
+connect nbase_od2 nldpwhvnw_emit by nplug
+connect nemit nldpwhvnw_emit
+connect nemit_od2 nldpwhvnw_emit
+connect tiod nldpwhvnw_emit
+connect nldpwhvnw_emit d_tpdiff
+connect nldpwhvnw_emit ell_emit
+connect nldpwhvnw_emit emit
+connect nldpwhvnw_emit emit_od2
+connect nldpwhvnw_emit hvpdfs
+connect nldpwhvnw_emit lcesdp
+connect nldpwhvnw_emit ldpwhvnwpsub_emit
+connect nldpwhvnw_emit nps2 by nplug
+connect nldpwhvnw_emit nxwell_npn by nplug
+connect nldpwhvnw_emit pddhvnwpsub_emit
+connect nldpwhvnw_emit phvnwdpw60_emit
+connect nldpwhvnw_emit phvnwpsub_emit
+connect nldpwhvnw_emit pwhvnwdpw_emit
+connect nldpwhvnw_emit rpdd_term
+connect nldpwhvnw_emit s_tpdiff
+connect nldpwhvnw_emit schottky_p
+connect nldpwhvnw_emit ull_emit
+connect nldpwhvnw_emit ydio
+connect nldpwhvnw_emit ydio_hole
+connect ull_nbase nldpwhvnw_emit by nplug
+connect ull_nemit nldpwhvnw_emit
+connect tndiff nlvpwnbl60_emit
+connect ell_nbase nlvpwnbl60_emit by nplug
+connect ell_nemit nlvpwnbl60_emit
+connect nbase nlvpwnbl60_emit by nplug
+connect nbase_od2 nlvpwnbl60_emit by nplug
+connect nemit nlvpwnbl60_emit
+connect nemit_od2 nlvpwnbl60_emit
+connect tiod nlvpwnbl60_emit
+connect nlvpwnbl60_emit d_tpdiff
+connect nlvpwnbl60_emit ell_emit
+connect nlvpwnbl60_emit emit
+connect nlvpwnbl60_emit emit_od2
+connect nlvpwnbl60_emit hvpdfs
+connect nlvpwnbl60_emit lcesdp
+connect nlvpwnbl60_emit ldpwhvnwpsub_emit
+connect nlvpwnbl60_emit nps2 by nplug
+connect nlvpwnbl60_emit nxwell_npn by nplug
+connect nlvpwnbl60_emit pddhvnwpsub_emit
+connect nlvpwnbl60_emit phvnwdpw60_emit
+connect nlvpwnbl60_emit phvnwpsub_emit
+connect nlvpwnbl60_emit pwhvnwdpw_emit
+connect nlvpwnbl60_emit rpdd_term
+connect nlvpwnbl60_emit s_tpdiff
+connect nlvpwnbl60_emit schottky_p
+connect nlvpwnbl60_emit ull_emit
+connect nlvpwnbl60_emit ydio
+connect nlvpwnbl60_emit ydio_hole
+connect ull_nbase nlvpwnbl60_emit by nplug
+connect ull_nemit nlvpwnbl60_emit
+connect tndiff nlvpwnbl_emit
+connect ell_nbase nlvpwnbl_emit by nplug
+connect ell_nemit nlvpwnbl_emit
+connect nbase nlvpwnbl_emit by nplug
+connect nbase_od2 nlvpwnbl_emit by nplug
+connect nemit nlvpwnbl_emit
+connect nemit_od2 nlvpwnbl_emit
+connect tiod nlvpwnbl_emit
+connect nlvpwnbl_emit d_tpdiff
+connect nlvpwnbl_emit ell_emit
+connect nlvpwnbl_emit emit
+connect nlvpwnbl_emit emit_od2
+connect nlvpwnbl_emit hvpdfs
+connect nlvpwnbl_emit lcesdp
+connect nlvpwnbl_emit ldpwhvnwpsub_emit
+connect nlvpwnbl_emit nps2 by nplug
+connect nlvpwnbl_emit nxwell_npn by nplug
+connect nlvpwnbl_emit pddhvnwpsub_emit
+connect nlvpwnbl_emit phvnwdpw60_emit
+connect nlvpwnbl_emit phvnwpsub_emit
+connect nlvpwnbl_emit pwhvnwdpw_emit
+connect nlvpwnbl_emit rpdd_term
+connect nlvpwnbl_emit s_tpdiff
+connect nlvpwnbl_emit schottky_p
+connect nlvpwnbl_emit ull_emit
+connect nlvpwnbl_emit ydio
+connect nlvpwnbl_emit ydio_hole
+connect ull_nbase nlvpwnbl_emit by nplug
+connect ull_nemit nlvpwnbl_emit
+connect tndiff ntgdrain
+connect ell_nbase ntgdrain by nplug
+connect ell_nemit ntgdrain
+connect nbase ntgdrain by nplug
+connect nbase_od2 ntgdrain by nplug
+connect nemit ntgdrain
+connect nemit_od2 ntgdrain
+connect tiod ntgdrain
+connect ntgdrain d_tpdiff
+connect ntgdrain ell_emit
+connect ntgdrain emit
+connect ntgdrain emit_od2
+connect ntgdrain hvpdfs
+connect ntgdrain lcesdp
+connect ntgdrain ldpwhvnwpsub_emit
+connect ntgdrain nps2 by nplug
+connect ntgdrain nxwell_npn by nplug
+connect ntgdrain pddhvnwpsub_emit
+connect ntgdrain phvnwdpw60_emit
+connect ntgdrain phvnwpsub_emit
+connect ntgdrain pwhvnwdpw_emit
+connect ntgdrain rpdd_term
+connect ntgdrain s_tpdiff
+connect ntgdrain schottky_p
+connect ntgdrain ull_emit
+connect ntgdrain ydio
+connect ntgdrain ydio_hole
+connect ull_nbase ntgdrain by nplug
+connect ull_nemit ntgdrain
+connect tndiff nwhvpwnbl60_emit
+connect ell_nbase nwhvpwnbl60_emit by nplug
+connect ell_nemit nwhvpwnbl60_emit
+connect nbase nwhvpwnbl60_emit by nplug
+connect nbase_od2 nwhvpwnbl60_emit by nplug
+connect nemit nwhvpwnbl60_emit
+connect nemit_od2 nwhvpwnbl60_emit
+connect tiod nwhvpwnbl60_emit
+connect nwhvpwnbl60_emit d_tpdiff
+connect nwhvpwnbl60_emit ell_emit
+connect nwhvpwnbl60_emit emit
+connect nwhvpwnbl60_emit emit_od2
+connect nwhvpwnbl60_emit hvpdfs
+connect nwhvpwnbl60_emit lcesdp
+connect nwhvpwnbl60_emit ldpwhvnwpsub_emit
+connect nwhvpwnbl60_emit nps2 by nplug
+connect nwhvpwnbl60_emit nxwell_npn by nplug
+connect nwhvpwnbl60_emit pddhvnwpsub_emit
+connect nwhvpwnbl60_emit phvnwdpw60_emit
+connect nwhvpwnbl60_emit phvnwpsub_emit
+connect nwhvpwnbl60_emit pwhvnwdpw_emit
+connect nwhvpwnbl60_emit rpdd_term
+connect nwhvpwnbl60_emit s_tpdiff
+connect nwhvpwnbl60_emit schottky_p
+connect nwhvpwnbl60_emit ull_emit
+connect nwhvpwnbl60_emit ydio
+connect nwhvpwnbl60_emit ydio_hole
+connect ull_nbase nwhvpwnbl60_emit by nplug
+connect ull_nemit nwhvpwnbl60_emit
+connect tndiff nwhvpwnbl_emit
+connect ell_nbase nwhvpwnbl_emit by nplug
+connect ell_nemit nwhvpwnbl_emit
+connect nbase nwhvpwnbl_emit by nplug
+connect nbase_od2 nwhvpwnbl_emit by nplug
+connect nemit nwhvpwnbl_emit
+connect nemit_od2 nwhvpwnbl_emit
+connect tiod nwhvpwnbl_emit
+connect nwhvpwnbl_emit d_tpdiff
+connect nwhvpwnbl_emit ell_emit
+connect nwhvpwnbl_emit emit
+connect nwhvpwnbl_emit emit_od2
+connect nwhvpwnbl_emit hvpdfs
+connect nwhvpwnbl_emit lcesdp
+connect nwhvpwnbl_emit ldpwhvnwpsub_emit
+connect nwhvpwnbl_emit nps2 by nplug
+connect nwhvpwnbl_emit nxwell_npn by nplug
+connect nwhvpwnbl_emit pddhvnwpsub_emit
+connect nwhvpwnbl_emit phvnwdpw60_emit
+connect nwhvpwnbl_emit phvnwpsub_emit
+connect nwhvpwnbl_emit pwhvnwdpw_emit
+connect nwhvpwnbl_emit rpdd_term
+connect nwhvpwnbl_emit s_tpdiff
+connect nwhvpwnbl_emit schottky_p
+connect nwhvpwnbl_emit ull_emit
+connect nwhvpwnbl_emit ydio
+connect nwhvpwnbl_emit ydio_hole
+connect ull_nbase nwhvpwnbl_emit by nplug
+connect ull_nemit nwhvpwnbl_emit
+connect ell_nbase ull_nemit by nplug
+connect nbase ull_nemit by nplug
+connect nbase_od2 ull_nemit by nplug
+connect tiod ull_nemit
+connect ull_nemit d_tpdiff
+connect ull_nemit ell_emit
+connect ull_nemit emit
+connect ull_nemit emit_od2
+connect ull_nemit hvpdfs
+connect ull_nemit lcesdp
+connect ull_nemit ldpwhvnwpsub_emit
+connect ull_nemit nps2 by nplug
+connect ull_nemit nxwell_npn by nplug
+connect ull_nemit pddhvnwpsub_emit
+connect ull_nemit phvnwdpw60_emit
+connect ull_nemit phvnwpsub_emit
+connect ull_nemit pwhvnwdpw_emit
+connect ull_nemit rpdd_term
+connect ull_nemit s_tpdiff
+connect ull_nemit schottky_p
+connect ull_nemit ull_emit
+connect ull_nemit ydio
+connect ull_nemit ydio_hole
+connect ull_nbase ull_nemit by nplug
+connect tndiff nhvpwdnw_4t_emit
+connect ell_nbase nhvpwdnw_4t_emit by nplug
+connect ell_nemit nhvpwdnw_4t_emit
+connect nbase nhvpwdnw_4t_emit by nplug
+connect nbase_od2 nhvpwdnw_4t_emit by nplug
+connect nemit nhvpwdnw_4t_emit
+connect nemit_od2 nhvpwdnw_4t_emit
+connect tiod nhvpwdnw_4t_emit
+connect nhvpwdnw_4t_emit d_tpdiff
+connect nhvpwdnw_4t_emit ell_emit
+connect nhvpwdnw_4t_emit emit
+connect nhvpwdnw_4t_emit emit_od2
+connect nhvpwdnw_4t_emit hvpdfs
+connect nhvpwdnw_4t_emit lcesdp
+connect nhvpwdnw_4t_emit ldpwhvnwpsub_emit
+connect nhvpwdnw_4t_emit nps2 by nplug
+connect nhvpwdnw_4t_emit nxwell_npn by nplug
+connect nhvpwdnw_4t_emit pddhvnwpsub_emit
+connect nhvpwdnw_4t_emit phvnwdpw60_emit
+connect nhvpwdnw_4t_emit phvnwpsub_emit
+connect nhvpwdnw_4t_emit pwhvnwdpw_emit
+connect nhvpwdnw_4t_emit rpdd_term
+connect nhvpwdnw_4t_emit s_tpdiff
+connect nhvpwdnw_4t_emit schottky_p
+connect nhvpwdnw_4t_emit ull_emit
+connect nhvpwdnw_4t_emit ydio
+connect nhvpwdnw_4t_emit ydio_hole
+connect ull_nbase nhvpwdnw_4t_emit by nplug
+connect ull_nemit nhvpwdnw_4t_emit
+connect tndiff npwnbl_emit
+connect ell_nbase npwnbl_emit by nplug
+connect ell_nemit npwnbl_emit
+connect nbase npwnbl_emit by nplug
+connect nbase_od2 npwnbl_emit by nplug
+connect nemit npwnbl_emit
+connect nemit_od2 npwnbl_emit
+connect tiod npwnbl_emit
+connect npwnbl_emit d_tpdiff
+connect npwnbl_emit ell_emit
+connect npwnbl_emit emit
+connect npwnbl_emit emit_od2
+connect npwnbl_emit hvpdfs
+connect npwnbl_emit lcesdp
+connect npwnbl_emit ldpwhvnwpsub_emit
+connect npwnbl_emit nps2 by nplug
+connect npwnbl_emit nxwell_npn by nplug
+connect npwnbl_emit pddhvnwpsub_emit
+connect npwnbl_emit phvnwdpw60_emit
+connect npwnbl_emit phvnwpsub_emit
+connect npwnbl_emit pwhvnwdpw_emit
+connect npwnbl_emit rpdd_term
+connect npwnbl_emit s_tpdiff
+connect npwnbl_emit schottky_p
+connect npwnbl_emit ull_emit
+connect npwnbl_emit ydio
+connect npwnbl_emit ydio_hole
+connect ull_nbase npwnbl_emit by nplug
+connect ull_nemit npwnbl_emit
+connect tpdiff d_tpdiff
+connect ell_emit d_tpdiff
+connect emit d_tpdiff
+connect emit_od2 d_tpdiff
+connect pbase d_tpdiff by pplug
+connect pbase_od2 d_tpdiff by pplug
+connect tiod d_tpdiff
+connect ull_emit d_tpdiff
+connect tpdiff hvpdfs
+connect ell_emit hvpdfs
+connect emit hvpdfs
+connect emit_od2 hvpdfs
+connect pbase hvpdfs by pplug
+connect pbase_od2 hvpdfs by pplug
+connect tiod hvpdfs
+connect ull_emit hvpdfs
+connect tpdiff lcesdp
+connect ell_emit lcesdp
+connect emit lcesdp
+connect emit_od2 lcesdp
+connect pbase lcesdp by pplug
+connect pbase_od2 lcesdp by pplug
+connect tiod lcesdp
+connect ull_emit lcesdp
+connect tpdiff rpdd_term
+connect ell_emit rpdd_term
+connect emit rpdd_term
+connect emit_od2 rpdd_term
+connect pbase rpdd_term by pplug
+connect pbase_od2 rpdd_term by pplug
+connect tiod rpdd_term
+connect ull_emit rpdd_term
+connect tpdiff s_tpdiff
+connect ell_emit s_tpdiff
+connect emit s_tpdiff
+connect emit_od2 s_tpdiff
+connect pbase s_tpdiff by pplug
+connect pbase_od2 s_tpdiff by pplug
+connect tiod s_tpdiff
+connect ull_emit s_tpdiff
+connect tpdiff schottky_p
+connect ell_emit schottky_p
+connect emit schottky_p
+connect emit_od2 schottky_p
+connect pbase schottky_p by pplug
+connect pbase_od2 schottky_p by pplug
+connect tiod schottky_p
+connect ull_emit schottky_p
+connect emit ell_emit
+connect emit_od2 ell_emit
+connect pbase ell_emit by pplug
+connect pbase_od2 ell_emit by pplug
+connect tiod ell_emit
+connect ull_emit ell_emit
+connect emit_od2 emit
+connect pbase emit by pplug
+connect pbase_od2 emit by pplug
+connect tiod emit
+connect ull_emit emit
+connect pbase emit_od2 by pplug
+connect pbase_od2 emit_od2 by pplug
+connect tiod emit_od2
+connect ull_emit emit_od2
+connect tpdiff ldpwhvnwpsub_emit
+connect ell_emit ldpwhvnwpsub_emit
+connect emit ldpwhvnwpsub_emit
+connect emit_od2 ldpwhvnwpsub_emit
+connect pbase ldpwhvnwpsub_emit by pplug
+connect pbase_od2 ldpwhvnwpsub_emit by pplug
+connect tiod ldpwhvnwpsub_emit
+connect ull_emit ldpwhvnwpsub_emit
+connect tpdiff phvnwdpw60_emit
+connect ell_emit phvnwdpw60_emit
+connect emit phvnwdpw60_emit
+connect emit_od2 phvnwdpw60_emit
+connect pbase phvnwdpw60_emit by pplug
+connect pbase_od2 phvnwdpw60_emit by pplug
+connect tiod phvnwdpw60_emit
+connect ull_emit phvnwdpw60_emit
+connect tpdiff pwhvnwdpw_emit
+connect ell_emit pwhvnwdpw_emit
+connect emit pwhvnwdpw_emit
+connect emit_od2 pwhvnwdpw_emit
+connect pbase pwhvnwdpw_emit by pplug
+connect pbase_od2 pwhvnwdpw_emit by pplug
+connect tiod pwhvnwdpw_emit
+connect ull_emit pwhvnwdpw_emit
+connect pbase ull_emit by pplug
+connect pbase_od2 ull_emit by pplug
+connect tiod ull_emit
+connect tpdiff pddhvnwpsub_emit
+connect ell_emit pddhvnwpsub_emit
+connect emit pddhvnwpsub_emit
+connect emit_od2 pddhvnwpsub_emit
+connect pbase pddhvnwpsub_emit by pplug
+connect pbase_od2 pddhvnwpsub_emit by pplug
+connect tiod pddhvnwpsub_emit
+connect ull_emit pddhvnwpsub_emit
+connect tpdiff phvnwpsub_emit
+connect ell_emit phvnwpsub_emit
+connect emit phvnwpsub_emit
+connect emit_od2 phvnwpsub_emit
+connect pbase phvnwpsub_emit by pplug
+connect pbase_od2 phvnwpsub_emit by pplug
+connect tiod phvnwpsub_emit
+connect ull_emit phvnwpsub_emit
+connect gate_lv_not_IO1 poly
+sconnect tndiff nxwell by nplug
+sconnect nxwell mim_term by mim_nw_via
+sconnect d_tndiff nxwell by nplug
+sconnect nxwell poly_term by poly_nw
+sconnect hvndfs nxwell by nplug
+sconnect nxwell mim_term_sandwich_3t by mim_sandwich_nw_via
+sconnect lcesdm nxwell by nplug
+sconnect nxwell DNW by dnwc
+sconnect tpdiff psub_term by pplug
+sconnect psub_term psub_under_hvnw by psub_under_hvnw_via
+sconnect d_tpdiff psub_term by pplug
+sconnect psub_term ldpwhvnwpsub_col by psub_under_hvnw_via
+sconnect hvpdfs psub_term by pplug
+sconnect psub_term psub_under_nbl by psub_under_nbl_via
+sconnect lcesdp psub_term by pplug
+sconnect psub_term psub_under_dnw by psub_under_dnw_via
+sconnect rpdd_term psub_term by pplug
+sconnect psub_term hvnwpsub_col by psub_under_hvnw_via
+sconnect tpdiff psub by pplug
+sconnect psub mim_term by mim_psub_via
+sconnect d_tpdiff psub by pplug
+sconnect psub poly_term by poly_psub
+sconnect hvpdfs psub by pplug
+sconnect psub mim_term_sandwich_3t by mim_sandwich_psub_via
+sconnect lcesdp psub by pplug
+sconnect psub RFDMY_HIA_psub by hia_rf_via
+sconnect rpdd_term psub by pplug
+sconnect psub rfdmy56 by rfdmy56_via
+sconnect tpdiff HVPW by pplug
+sconnect HVPW mim_term by mim_hvpw_via
+sconnect d_tpdiff HVPW by pplug
+sconnect HVPW poly_term by poly_hvpw
+sconnect hvpdfs HVPW by pplug
+sconnect HVPW mim_term_sandwich_3t by mim_sandwich_hvpw_via
+sconnect lcesdp HVPW by pplug
+sconnect HVPW DPW by dpwc
+sconnect tpdiff nhvpwdnw_4t_base by pplug
+sconnect tpdiff nlvpwnbl_base by pplug
+sconnect tpdiff n_psub by n_pplug
+sconnect tpdiff ell_coll by pplug
+sconnect tpdiff hvnwdpwnbl_base by pplug
+sconnect tpdiff ull_coll by pplug
+sconnect tpdiff nhvpwnbl_base by pplug
+sconnect tpdiff pwhvnwdpw_col by pplug
+sconnect tpdiff hvpdfd by pplug
+sconnect tpdiff rw_inside_dnw by pplug
+sconnect tpdiff phvnwdpw_col by pplug
+sconnect tpdiff coll_od2 by pplug
+sconnect tpdiff coll by pplug
+sconnect tpdiff nwhvpwnbl_base by pplug
+sconnect tpdiff npwnbl_base by pplug
+sconnect tpdiff nldpwhvnw_base by pplug
+sconnect tndiff nhvpwdnw_4t_col by nplug
+sconnect tndiff hvnw_base by nplug
+sconnect tndiff nwhvpwnbl_col by nplug
+sconnect tndiff nlvpwnbl_col by nplug
+sconnect tndiff nhvpwnbl_col by nplug
+sconnect tndiff hvndfd by nplug
+sconnect tndiff hvnwdpwnbl_col by nbl_nplug
+sconnect tndiff phvnwdpw_base by nplug
+sconnect tndiff npwnbl_col by nplug
+sconnect tndiff ldpwhvnwpsub_base by nplug
+sconnect tndiff NBL by nbl_nplug
+sconnect tndiff nldpwhvnw_col by nplug
+sconnect tndiff iso_hvnw by nplug
+sconnect tndiff HVNW by nplug
+sconnect tndiff pwhvnwdpw_base by nplug
+sconnect d_tndiff HVNW by nplug
+sconnect HVNW mim_term by mim_hvnw_via
+sconnect hvndfs HVNW by nplug
+sconnect HVNW poly_term by poly_hvnw
+sconnect lcesdm HVNW by nplug
+sconnect HVNW mim_term_sandwich_3t by mim_sandwich_hvnw_via
+sconnect d_tndiff NBL by nbl_nplug
+sconnect d_tndiff hvndfd by nplug
+sconnect d_tndiff hvnw_base by nplug
+sconnect d_tndiff hvnwdpwnbl_col by nbl_nplug
+sconnect d_tndiff iso_hvnw by nplug
+sconnect d_tndiff ldpwhvnwpsub_base by nplug
+sconnect d_tndiff nhvpwdnw_4t_col by nplug
+sconnect d_tndiff nhvpwnbl_col by nplug
+sconnect d_tndiff nldpwhvnw_col by nplug
+sconnect d_tndiff nlvpwnbl_col by nplug
+sconnect d_tndiff npwnbl_col by nplug
+sconnect d_tndiff nwhvpwnbl_col by nplug
+sconnect d_tndiff phvnwdpw_base by nplug
+sconnect d_tndiff pwhvnwdpw_base by nplug
+sconnect hvndfs NBL by nbl_nplug
+sconnect hvndfs hvndfd by nplug
+sconnect hvndfs hvnw_base by nplug
+sconnect hvndfs hvnwdpwnbl_col by nbl_nplug
+sconnect hvndfs iso_hvnw by nplug
+sconnect hvndfs ldpwhvnwpsub_base by nplug
+sconnect hvndfs nhvpwdnw_4t_col by nplug
+sconnect hvndfs nhvpwnbl_col by nplug
+sconnect hvndfs nldpwhvnw_col by nplug
+sconnect hvndfs nlvpwnbl_col by nplug
+sconnect hvndfs npwnbl_col by nplug
+sconnect hvndfs nwhvpwnbl_col by nplug
+sconnect hvndfs phvnwdpw_base by nplug
+sconnect hvndfs pwhvnwdpw_base by nplug
+sconnect lcesdm NBL by nbl_nplug
+sconnect lcesdm hvndfd by nplug
+sconnect lcesdm hvnw_base by nplug
+sconnect lcesdm hvnwdpwnbl_col by nbl_nplug
+sconnect lcesdm iso_hvnw by nplug
+sconnect lcesdm ldpwhvnwpsub_base by nplug
+sconnect lcesdm nhvpwdnw_4t_col by nplug
+sconnect lcesdm nhvpwnbl_col by nplug
+sconnect lcesdm nldpwhvnw_col by nplug
+sconnect lcesdm nlvpwnbl_col by nplug
+sconnect lcesdm npwnbl_col by nplug
+sconnect lcesdm nwhvpwnbl_col by nplug
+sconnect lcesdm phvnwdpw_base by nplug
+sconnect lcesdm pwhvnwdpw_base by nplug
+sconnect rndd_term HVNW by nplug
+sconnect rndd_term NBL by nbl_nplug
+sconnect rndd_term hvndfd by nplug
+sconnect rndd_term hvnw_base by nplug
+sconnect rndd_term hvnwdpwnbl_col by nbl_nplug
+sconnect rndd_term iso_hvnw by nplug
+sconnect rndd_term ldpwhvnwpsub_base by nplug
+sconnect rndd_term nhvpwdnw_4t_col by nplug
+sconnect rndd_term nhvpwnbl_col by nplug
+sconnect rndd_term nldpwhvnw_col by nplug
+sconnect rndd_term nlvpwnbl_col by nplug
+sconnect rndd_term npwnbl_col by nplug
+sconnect rndd_term nwhvpwnbl_col by nplug
+sconnect rndd_term nxwell by nplug
+sconnect rndd_term phvnwdpw_base by nplug
+sconnect rndd_term pwhvnwdpw_base by nplug
+sconnect s_tndiff HVNW by nplug
+sconnect s_tndiff NBL by nbl_nplug
+sconnect s_tndiff hvndfd by nplug
+sconnect s_tndiff hvnw_base by nplug
+sconnect s_tndiff hvnwdpwnbl_col by nbl_nplug
+sconnect s_tndiff iso_hvnw by nplug
+sconnect s_tndiff ldpwhvnwpsub_base by nplug
+sconnect s_tndiff nhvpwdnw_4t_col by nplug
+sconnect s_tndiff nhvpwnbl_col by nplug
+sconnect s_tndiff nldpwhvnw_col by nplug
+sconnect s_tndiff nlvpwnbl_col by nplug
+sconnect s_tndiff npwnbl_col by nplug
+sconnect s_tndiff nwhvpwnbl_col by nplug
+sconnect s_tndiff nxwell by nplug
+sconnect s_tndiff phvnwdpw_base by nplug
+sconnect s_tndiff pwhvnwdpw_base by nplug
+sconnect schottky_n HVNW by nplug
+sconnect schottky_n NBL by nbl_nplug
+sconnect schottky_n hvndfd by nplug
+sconnect schottky_n hvnw_base by nplug
+sconnect schottky_n hvnwdpwnbl_col by nbl_nplug
+sconnect schottky_n iso_hvnw by nplug
+sconnect schottky_n ldpwhvnwpsub_base by nplug
+sconnect schottky_n nhvpwdnw_4t_col by nplug
+sconnect schottky_n nhvpwnbl_col by nplug
+sconnect schottky_n nldpwhvnw_col by nplug
+sconnect schottky_n nlvpwnbl_col by nplug
+sconnect schottky_n npwnbl_col by nplug
+sconnect schottky_n nwhvpwnbl_col by nplug
+sconnect schottky_n nxwell by nplug
+sconnect schottky_n phvnwdpw_base by nplug
+sconnect schottky_n pwhvnwdpw_base by nplug
+sconnect ell_nemit HVNW by nplug
+sconnect ell_nemit NBL by nbl_nplug
+sconnect ell_nemit hvndfd by nplug
+sconnect ell_nemit hvnw_base by nplug
+sconnect ell_nemit hvnwdpwnbl_col by nbl_nplug
+sconnect ell_nemit iso_hvnw by nplug
+sconnect ell_nemit ldpwhvnwpsub_base by nplug
+sconnect ell_nemit nhvpwdnw_4t_col by nplug
+sconnect ell_nemit nhvpwnbl_col by nplug
+sconnect ell_nemit nldpwhvnw_col by nplug
+sconnect ell_nemit nlvpwnbl_col by nplug
+sconnect ell_nemit npwnbl_col by nplug
+sconnect ell_nemit nwhvpwnbl_col by nplug
+sconnect ell_nemit nxwell by nplug
+sconnect ell_nemit phvnwdpw_base by nplug
+sconnect ell_nemit pwhvnwdpw_base by nplug
+sconnect hvnwdpwnbl60_emit HVNW by nplug
+sconnect hvnwdpwnbl60_emit NBL by nbl_nplug
+sconnect hvnwdpwnbl60_emit hvndfd by nplug
+sconnect hvnwdpwnbl60_emit hvnw_base by nplug
+sconnect hvnwdpwnbl60_emit hvnwdpwnbl_col by nbl_nplug
+sconnect hvnwdpwnbl60_emit iso_hvnw by nplug
+sconnect hvnwdpwnbl60_emit ldpwhvnwpsub_base by nplug
+sconnect hvnwdpwnbl60_emit nhvpwdnw_4t_col by nplug
+sconnect hvnwdpwnbl60_emit nhvpwnbl_col by nplug
+sconnect hvnwdpwnbl60_emit nldpwhvnw_col by nplug
+sconnect hvnwdpwnbl60_emit nlvpwnbl_col by nplug
+sconnect hvnwdpwnbl60_emit npwnbl_col by nplug
+sconnect hvnwdpwnbl60_emit nwhvpwnbl_col by nplug
+sconnect hvnwdpwnbl60_emit nxwell by nplug
+sconnect hvnwdpwnbl60_emit phvnwdpw_base by nplug
+sconnect hvnwdpwnbl60_emit pwhvnwdpw_base by nplug
+sconnect nemit HVNW by nplug
+sconnect nemit NBL by nbl_nplug
+sconnect nemit hvndfd by nplug
+sconnect nemit hvnw_base by nplug
+sconnect nemit hvnwdpwnbl_col by nbl_nplug
+sconnect nemit iso_hvnw by nplug
+sconnect nemit ldpwhvnwpsub_base by nplug
+sconnect nemit nhvpwdnw_4t_col by nplug
+sconnect nemit nhvpwnbl_col by nplug
+sconnect nemit nldpwhvnw_col by nplug
+sconnect nemit nlvpwnbl_col by nplug
+sconnect nemit npwnbl_col by nplug
+sconnect nemit nwhvpwnbl_col by nplug
+sconnect nemit nxwell by nplug
+sconnect nemit phvnwdpw_base by nplug
+sconnect nemit pwhvnwdpw_base by nplug
+sconnect nemit_od2 HVNW by nplug
+sconnect nemit_od2 NBL by nbl_nplug
+sconnect nemit_od2 hvndfd by nplug
+sconnect nemit_od2 hvnw_base by nplug
+sconnect nemit_od2 hvnwdpwnbl_col by nbl_nplug
+sconnect nemit_od2 iso_hvnw by nplug
+sconnect nemit_od2 ldpwhvnwpsub_base by nplug
+sconnect nemit_od2 nhvpwdnw_4t_col by nplug
+sconnect nemit_od2 nhvpwnbl_col by nplug
+sconnect nemit_od2 nldpwhvnw_col by nplug
+sconnect nemit_od2 nlvpwnbl_col by nplug
+sconnect nemit_od2 npwnbl_col by nplug
+sconnect nemit_od2 nwhvpwnbl_col by nplug
+sconnect nemit_od2 nxwell by nplug
+sconnect nemit_od2 phvnwdpw_base by nplug
+sconnect nemit_od2 pwhvnwdpw_base by nplug
+sconnect nhvpwnbl60_emit HVNW by nplug
+sconnect nhvpwnbl60_emit NBL by nbl_nplug
+sconnect nhvpwnbl60_emit hvndfd by nplug
+sconnect nhvpwnbl60_emit hvnw_base by nplug
+sconnect nhvpwnbl60_emit hvnwdpwnbl_col by nbl_nplug
+sconnect nhvpwnbl60_emit iso_hvnw by nplug
+sconnect nhvpwnbl60_emit ldpwhvnwpsub_base by nplug
+sconnect nhvpwnbl60_emit nhvpwdnw_4t_col by nplug
+sconnect nhvpwnbl60_emit nhvpwnbl_col by nplug
+sconnect nhvpwnbl60_emit nldpwhvnw_col by nplug
+sconnect nhvpwnbl60_emit nlvpwnbl_col by nplug
+sconnect nhvpwnbl60_emit npwnbl_col by nplug
+sconnect nhvpwnbl60_emit nwhvpwnbl_col by nplug
+sconnect nhvpwnbl60_emit nxwell by nplug
+sconnect nhvpwnbl60_emit phvnwdpw_base by nplug
+sconnect nhvpwnbl60_emit pwhvnwdpw_base by nplug
+sconnect nhvpwnbl_emit HVNW by nplug
+sconnect nhvpwnbl_emit NBL by nbl_nplug
+sconnect nhvpwnbl_emit hvndfd by nplug
+sconnect nhvpwnbl_emit hvnw_base by nplug
+sconnect nhvpwnbl_emit hvnwdpwnbl_col by nbl_nplug
+sconnect nhvpwnbl_emit iso_hvnw by nplug
+sconnect nhvpwnbl_emit ldpwhvnwpsub_base by nplug
+sconnect nhvpwnbl_emit nhvpwdnw_4t_col by nplug
+sconnect nhvpwnbl_emit nhvpwnbl_col by nplug
+sconnect nhvpwnbl_emit nldpwhvnw_col by nplug
+sconnect nhvpwnbl_emit nlvpwnbl_col by nplug
+sconnect nhvpwnbl_emit npwnbl_col by nplug
+sconnect nhvpwnbl_emit nwhvpwnbl_col by nplug
+sconnect nhvpwnbl_emit nxwell by nplug
+sconnect nhvpwnbl_emit phvnwdpw_base by nplug
+sconnect nhvpwnbl_emit pwhvnwdpw_base by nplug
+sconnect nldpwhvnw_emit HVNW by nplug
+sconnect nldpwhvnw_emit NBL by nbl_nplug
+sconnect nldpwhvnw_emit hvndfd by nplug
+sconnect nldpwhvnw_emit hvnw_base by nplug
+sconnect nldpwhvnw_emit hvnwdpwnbl_col by nbl_nplug
+sconnect nldpwhvnw_emit iso_hvnw by nplug
+sconnect nldpwhvnw_emit ldpwhvnwpsub_base by nplug
+sconnect nldpwhvnw_emit nhvpwdnw_4t_col by nplug
+sconnect nldpwhvnw_emit nhvpwnbl_col by nplug
+sconnect nldpwhvnw_emit nldpwhvnw_col by nplug
+sconnect nldpwhvnw_emit nlvpwnbl_col by nplug
+sconnect nldpwhvnw_emit npwnbl_col by nplug
+sconnect nldpwhvnw_emit nwhvpwnbl_col by nplug
+sconnect nldpwhvnw_emit nxwell by nplug
+sconnect nldpwhvnw_emit phvnwdpw_base by nplug
+sconnect nldpwhvnw_emit pwhvnwdpw_base by nplug
+sconnect nlvpwnbl60_emit HVNW by nplug
+sconnect nlvpwnbl60_emit NBL by nbl_nplug
+sconnect nlvpwnbl60_emit hvndfd by nplug
+sconnect nlvpwnbl60_emit hvnw_base by nplug
+sconnect nlvpwnbl60_emit hvnwdpwnbl_col by nbl_nplug
+sconnect nlvpwnbl60_emit iso_hvnw by nplug
+sconnect nlvpwnbl60_emit ldpwhvnwpsub_base by nplug
+sconnect nlvpwnbl60_emit nhvpwdnw_4t_col by nplug
+sconnect nlvpwnbl60_emit nhvpwnbl_col by nplug
+sconnect nlvpwnbl60_emit nldpwhvnw_col by nplug
+sconnect nlvpwnbl60_emit nlvpwnbl_col by nplug
+sconnect nlvpwnbl60_emit npwnbl_col by nplug
+sconnect nlvpwnbl60_emit nwhvpwnbl_col by nplug
+sconnect nlvpwnbl60_emit nxwell by nplug
+sconnect nlvpwnbl60_emit phvnwdpw_base by nplug
+sconnect nlvpwnbl60_emit pwhvnwdpw_base by nplug
+sconnect nlvpwnbl_emit HVNW by nplug
+sconnect nlvpwnbl_emit NBL by nbl_nplug
+sconnect nlvpwnbl_emit hvndfd by nplug
+sconnect nlvpwnbl_emit hvnw_base by nplug
+sconnect nlvpwnbl_emit hvnwdpwnbl_col by nbl_nplug
+sconnect nlvpwnbl_emit iso_hvnw by nplug
+sconnect nlvpwnbl_emit ldpwhvnwpsub_base by nplug
+sconnect nlvpwnbl_emit nhvpwdnw_4t_col by nplug
+sconnect nlvpwnbl_emit nhvpwnbl_col by nplug
+sconnect nlvpwnbl_emit nldpwhvnw_col by nplug
+sconnect nlvpwnbl_emit nlvpwnbl_col by nplug
+sconnect nlvpwnbl_emit npwnbl_col by nplug
+sconnect nlvpwnbl_emit nwhvpwnbl_col by nplug
+sconnect nlvpwnbl_emit nxwell by nplug
+sconnect nlvpwnbl_emit phvnwdpw_base by nplug
+sconnect nlvpwnbl_emit pwhvnwdpw_base by nplug
+sconnect ntgdrain HVNW by nplug
+sconnect ntgdrain NBL by nbl_nplug
+sconnect ntgdrain hvndfd by nplug
+sconnect ntgdrain hvnw_base by nplug
+sconnect ntgdrain hvnwdpwnbl_col by nbl_nplug
+sconnect ntgdrain iso_hvnw by nplug
+sconnect ntgdrain ldpwhvnwpsub_base by nplug
+sconnect ntgdrain nhvpwdnw_4t_col by nplug
+sconnect ntgdrain nhvpwnbl_col by nplug
+sconnect ntgdrain nldpwhvnw_col by nplug
+sconnect ntgdrain nlvpwnbl_col by nplug
+sconnect ntgdrain npwnbl_col by nplug
+sconnect ntgdrain nwhvpwnbl_col by nplug
+sconnect ntgdrain nxwell by nplug
+sconnect ntgdrain phvnwdpw_base by nplug
+sconnect ntgdrain pwhvnwdpw_base by nplug
+sconnect nwhvpwnbl60_emit HVNW by nplug
+sconnect nwhvpwnbl60_emit NBL by nbl_nplug
+sconnect nwhvpwnbl60_emit hvndfd by nplug
+sconnect nwhvpwnbl60_emit hvnw_base by nplug
+sconnect nwhvpwnbl60_emit hvnwdpwnbl_col by nbl_nplug
+sconnect nwhvpwnbl60_emit iso_hvnw by nplug
+sconnect nwhvpwnbl60_emit ldpwhvnwpsub_base by nplug
+sconnect nwhvpwnbl60_emit nhvpwdnw_4t_col by nplug
+sconnect nwhvpwnbl60_emit nhvpwnbl_col by nplug
+sconnect nwhvpwnbl60_emit nldpwhvnw_col by nplug
+sconnect nwhvpwnbl60_emit nlvpwnbl_col by nplug
+sconnect nwhvpwnbl60_emit npwnbl_col by nplug
+sconnect nwhvpwnbl60_emit nwhvpwnbl_col by nplug
+sconnect nwhvpwnbl60_emit nxwell by nplug
+sconnect nwhvpwnbl60_emit phvnwdpw_base by nplug
+sconnect nwhvpwnbl60_emit pwhvnwdpw_base by nplug
+sconnect nwhvpwnbl_emit HVNW by nplug
+sconnect nwhvpwnbl_emit NBL by nbl_nplug
+sconnect nwhvpwnbl_emit hvndfd by nplug
+sconnect nwhvpwnbl_emit hvnw_base by nplug
+sconnect nwhvpwnbl_emit hvnwdpwnbl_col by nbl_nplug
+sconnect nwhvpwnbl_emit iso_hvnw by nplug
+sconnect nwhvpwnbl_emit ldpwhvnwpsub_base by nplug
+sconnect nwhvpwnbl_emit nhvpwdnw_4t_col by nplug
+sconnect nwhvpwnbl_emit nhvpwnbl_col by nplug
+sconnect nwhvpwnbl_emit nldpwhvnw_col by nplug
+sconnect nwhvpwnbl_emit nlvpwnbl_col by nplug
+sconnect nwhvpwnbl_emit npwnbl_col by nplug
+sconnect nwhvpwnbl_emit nwhvpwnbl_col by nplug
+sconnect nwhvpwnbl_emit nxwell by nplug
+sconnect nwhvpwnbl_emit phvnwdpw_base by nplug
+sconnect nwhvpwnbl_emit pwhvnwdpw_base by nplug
+sconnect ull_nemit HVNW by nplug
+sconnect ull_nemit NBL by nbl_nplug
+sconnect ull_nemit hvndfd by nplug
+sconnect ull_nemit hvnw_base by nplug
+sconnect ull_nemit hvnwdpwnbl_col by nbl_nplug
+sconnect ull_nemit iso_hvnw by nplug
+sconnect ull_nemit ldpwhvnwpsub_base by nplug
+sconnect ull_nemit nhvpwdnw_4t_col by nplug
+sconnect ull_nemit nhvpwnbl_col by nplug
+sconnect ull_nemit nldpwhvnw_col by nplug
+sconnect ull_nemit nlvpwnbl_col by nplug
+sconnect ull_nemit npwnbl_col by nplug
+sconnect ull_nemit nwhvpwnbl_col by nplug
+sconnect ull_nemit nxwell by nplug
+sconnect ull_nemit phvnwdpw_base by nplug
+sconnect ull_nemit pwhvnwdpw_base by nplug
+sconnect nhvpwdnw_4t_emit HVNW by nplug
+sconnect nhvpwdnw_4t_emit NBL by nbl_nplug
+sconnect nhvpwdnw_4t_emit hvndfd by nplug
+sconnect nhvpwdnw_4t_emit hvnw_base by nplug
+sconnect nhvpwdnw_4t_emit hvnwdpwnbl_col by nbl_nplug
+sconnect nhvpwdnw_4t_emit iso_hvnw by nplug
+sconnect nhvpwdnw_4t_emit ldpwhvnwpsub_base by nplug
+sconnect nhvpwdnw_4t_emit nhvpwdnw_4t_col by nplug
+sconnect nhvpwdnw_4t_emit nhvpwnbl_col by nplug
+sconnect nhvpwdnw_4t_emit nldpwhvnw_col by nplug
+sconnect nhvpwdnw_4t_emit nlvpwnbl_col by nplug
+sconnect nhvpwdnw_4t_emit npwnbl_col by nplug
+sconnect nhvpwdnw_4t_emit nwhvpwnbl_col by nplug
+sconnect nhvpwdnw_4t_emit nxwell by nplug
+sconnect nhvpwdnw_4t_emit phvnwdpw_base by nplug
+sconnect nhvpwdnw_4t_emit pwhvnwdpw_base by nplug
+sconnect npwnbl_emit HVNW by nplug
+sconnect npwnbl_emit NBL by nbl_nplug
+sconnect npwnbl_emit hvndfd by nplug
+sconnect npwnbl_emit hvnw_base by nplug
+sconnect npwnbl_emit hvnwdpwnbl_col by nbl_nplug
+sconnect npwnbl_emit iso_hvnw by nplug
+sconnect npwnbl_emit ldpwhvnwpsub_base by nplug
+sconnect npwnbl_emit nhvpwdnw_4t_col by nplug
+sconnect npwnbl_emit nhvpwnbl_col by nplug
+sconnect npwnbl_emit nldpwhvnw_col by nplug
+sconnect npwnbl_emit nlvpwnbl_col by nplug
+sconnect npwnbl_emit npwnbl_col by nplug
+sconnect npwnbl_emit nwhvpwnbl_col by nplug
+sconnect npwnbl_emit nxwell by nplug
+sconnect npwnbl_emit phvnwdpw_base by nplug
+sconnect npwnbl_emit pwhvnwdpw_base by nplug
+sconnect d_tpdiff coll by pplug
+sconnect d_tpdiff coll_od2 by pplug
+sconnect d_tpdiff ell_coll by pplug
+sconnect d_tpdiff hvnwdpwnbl_base by pplug
+sconnect d_tpdiff hvpdfd by pplug
+sconnect d_tpdiff n_psub by n_pplug
+sconnect d_tpdiff nhvpwdnw_4t_base by pplug
+sconnect d_tpdiff nhvpwnbl_base by pplug
+sconnect d_tpdiff nldpwhvnw_base by pplug
+sconnect d_tpdiff nlvpwnbl_base by pplug
+sconnect d_tpdiff npwnbl_base by pplug
+sconnect d_tpdiff nwhvpwnbl_base by pplug
+sconnect d_tpdiff phvnwdpw_col by pplug
+sconnect d_tpdiff pwhvnwdpw_col by pplug
+sconnect d_tpdiff rw_inside_dnw by pplug
+sconnect d_tpdiff ull_coll by pplug
+sconnect hvpdfs coll by pplug
+sconnect hvpdfs coll_od2 by pplug
+sconnect hvpdfs ell_coll by pplug
+sconnect hvpdfs hvnwdpwnbl_base by pplug
+sconnect hvpdfs hvpdfd by pplug
+sconnect hvpdfs n_psub by n_pplug
+sconnect hvpdfs nhvpwdnw_4t_base by pplug
+sconnect hvpdfs nhvpwnbl_base by pplug
+sconnect hvpdfs nldpwhvnw_base by pplug
+sconnect hvpdfs nlvpwnbl_base by pplug
+sconnect hvpdfs npwnbl_base by pplug
+sconnect hvpdfs nwhvpwnbl_base by pplug
+sconnect hvpdfs phvnwdpw_col by pplug
+sconnect hvpdfs pwhvnwdpw_col by pplug
+sconnect hvpdfs rw_inside_dnw by pplug
+sconnect hvpdfs ull_coll by pplug
+sconnect lcesdp coll by pplug
+sconnect lcesdp coll_od2 by pplug
+sconnect lcesdp ell_coll by pplug
+sconnect lcesdp hvnwdpwnbl_base by pplug
+sconnect lcesdp hvpdfd by pplug
+sconnect lcesdp n_psub by n_pplug
+sconnect lcesdp nhvpwdnw_4t_base by pplug
+sconnect lcesdp nhvpwnbl_base by pplug
+sconnect lcesdp nldpwhvnw_base by pplug
+sconnect lcesdp nlvpwnbl_base by pplug
+sconnect lcesdp npwnbl_base by pplug
+sconnect lcesdp nwhvpwnbl_base by pplug
+sconnect lcesdp phvnwdpw_col by pplug
+sconnect lcesdp pwhvnwdpw_col by pplug
+sconnect lcesdp rw_inside_dnw by pplug
+sconnect lcesdp ull_coll by pplug
+sconnect rpdd_term HVPW by pplug
+sconnect rpdd_term coll by pplug
+sconnect rpdd_term coll_od2 by pplug
+sconnect rpdd_term ell_coll by pplug
+sconnect rpdd_term hvnwdpwnbl_base by pplug
+sconnect rpdd_term hvpdfd by pplug
+sconnect rpdd_term n_psub by n_pplug
+sconnect rpdd_term nhvpwdnw_4t_base by pplug
+sconnect rpdd_term nhvpwnbl_base by pplug
+sconnect rpdd_term nldpwhvnw_base by pplug
+sconnect rpdd_term nlvpwnbl_base by pplug
+sconnect rpdd_term npwnbl_base by pplug
+sconnect rpdd_term nwhvpwnbl_base by pplug
+sconnect rpdd_term phvnwdpw_col by pplug
+sconnect rpdd_term pwhvnwdpw_col by pplug
+sconnect rpdd_term rw_inside_dnw by pplug
+sconnect rpdd_term ull_coll by pplug
+sconnect s_tpdiff HVPW by pplug
+sconnect s_tpdiff coll by pplug
+sconnect s_tpdiff coll_od2 by pplug
+sconnect s_tpdiff ell_coll by pplug
+sconnect s_tpdiff hvnwdpwnbl_base by pplug
+sconnect s_tpdiff hvpdfd by pplug
+sconnect s_tpdiff n_psub by n_pplug
+sconnect s_tpdiff nhvpwdnw_4t_base by pplug
+sconnect s_tpdiff nhvpwnbl_base by pplug
+sconnect s_tpdiff nldpwhvnw_base by pplug
+sconnect s_tpdiff nlvpwnbl_base by pplug
+sconnect s_tpdiff npwnbl_base by pplug
+sconnect s_tpdiff nwhvpwnbl_base by pplug
+sconnect s_tpdiff phvnwdpw_col by pplug
+sconnect s_tpdiff psub by pplug
+sconnect s_tpdiff psub_term by pplug
+sconnect s_tpdiff pwhvnwdpw_col by pplug
+sconnect s_tpdiff rw_inside_dnw by pplug
+sconnect s_tpdiff ull_coll by pplug
+sconnect schottky_p HVPW by pplug
+sconnect schottky_p coll by pplug
+sconnect schottky_p coll_od2 by pplug
+sconnect schottky_p ell_coll by pplug
+sconnect schottky_p hvnwdpwnbl_base by pplug
+sconnect schottky_p hvpdfd by pplug
+sconnect schottky_p n_psub by n_pplug
+sconnect schottky_p nhvpwdnw_4t_base by pplug
+sconnect schottky_p nhvpwnbl_base by pplug
+sconnect schottky_p nldpwhvnw_base by pplug
+sconnect schottky_p nlvpwnbl_base by pplug
+sconnect schottky_p npwnbl_base by pplug
+sconnect schottky_p nwhvpwnbl_base by pplug
+sconnect schottky_p phvnwdpw_col by pplug
+sconnect schottky_p psub by pplug
+sconnect schottky_p psub_term by pplug
+sconnect schottky_p pwhvnwdpw_col by pplug
+sconnect schottky_p rw_inside_dnw by pplug
+sconnect schottky_p ull_coll by pplug
+sconnect ell_emit HVPW by pplug
+sconnect ell_emit coll by pplug
+sconnect ell_emit coll_od2 by pplug
+sconnect ell_emit ell_coll by pplug
+sconnect ell_emit hvnwdpwnbl_base by pplug
+sconnect ell_emit hvpdfd by pplug
+sconnect ell_emit n_psub by n_pplug
+sconnect ell_emit nhvpwdnw_4t_base by pplug
+sconnect ell_emit nhvpwnbl_base by pplug
+sconnect ell_emit nldpwhvnw_base by pplug
+sconnect ell_emit nlvpwnbl_base by pplug
+sconnect ell_emit npwnbl_base by pplug
+sconnect ell_emit nwhvpwnbl_base by pplug
+sconnect ell_emit phvnwdpw_col by pplug
+sconnect ell_emit psub by pplug
+sconnect ell_emit psub_term by pplug
+sconnect ell_emit pwhvnwdpw_col by pplug
+sconnect ell_emit rw_inside_dnw by pplug
+sconnect ell_emit ull_coll by pplug
+sconnect emit HVPW by pplug
+sconnect emit coll by pplug
+sconnect emit coll_od2 by pplug
+sconnect emit ell_coll by pplug
+sconnect emit hvnwdpwnbl_base by pplug
+sconnect emit hvpdfd by pplug
+sconnect emit n_psub by n_pplug
+sconnect emit nhvpwdnw_4t_base by pplug
+sconnect emit nhvpwnbl_base by pplug
+sconnect emit nldpwhvnw_base by pplug
+sconnect emit nlvpwnbl_base by pplug
+sconnect emit npwnbl_base by pplug
+sconnect emit nwhvpwnbl_base by pplug
+sconnect emit phvnwdpw_col by pplug
+sconnect emit psub by pplug
+sconnect emit psub_term by pplug
+sconnect emit pwhvnwdpw_col by pplug
+sconnect emit rw_inside_dnw by pplug
+sconnect emit ull_coll by pplug
+sconnect emit_od2 HVPW by pplug
+sconnect emit_od2 coll by pplug
+sconnect emit_od2 coll_od2 by pplug
+sconnect emit_od2 ell_coll by pplug
+sconnect emit_od2 hvnwdpwnbl_base by pplug
+sconnect emit_od2 hvpdfd by pplug
+sconnect emit_od2 n_psub by n_pplug
+sconnect emit_od2 nhvpwdnw_4t_base by pplug
+sconnect emit_od2 nhvpwnbl_base by pplug
+sconnect emit_od2 nldpwhvnw_base by pplug
+sconnect emit_od2 nlvpwnbl_base by pplug
+sconnect emit_od2 npwnbl_base by pplug
+sconnect emit_od2 nwhvpwnbl_base by pplug
+sconnect emit_od2 phvnwdpw_col by pplug
+sconnect emit_od2 psub by pplug
+sconnect emit_od2 psub_term by pplug
+sconnect emit_od2 pwhvnwdpw_col by pplug
+sconnect emit_od2 rw_inside_dnw by pplug
+sconnect emit_od2 ull_coll by pplug
+sconnect ldpwhvnwpsub_emit HVPW by pplug
+sconnect ldpwhvnwpsub_emit coll by pplug
+sconnect ldpwhvnwpsub_emit coll_od2 by pplug
+sconnect ldpwhvnwpsub_emit ell_coll by pplug
+sconnect ldpwhvnwpsub_emit hvnwdpwnbl_base by pplug
+sconnect ldpwhvnwpsub_emit hvpdfd by pplug
+sconnect ldpwhvnwpsub_emit n_psub by n_pplug
+sconnect ldpwhvnwpsub_emit nhvpwdnw_4t_base by pplug
+sconnect ldpwhvnwpsub_emit nhvpwnbl_base by pplug
+sconnect ldpwhvnwpsub_emit nldpwhvnw_base by pplug
+sconnect ldpwhvnwpsub_emit nlvpwnbl_base by pplug
+sconnect ldpwhvnwpsub_emit npwnbl_base by pplug
+sconnect ldpwhvnwpsub_emit nwhvpwnbl_base by pplug
+sconnect ldpwhvnwpsub_emit phvnwdpw_col by pplug
+sconnect ldpwhvnwpsub_emit psub by pplug
+sconnect ldpwhvnwpsub_emit psub_term by pplug
+sconnect ldpwhvnwpsub_emit pwhvnwdpw_col by pplug
+sconnect ldpwhvnwpsub_emit rw_inside_dnw by pplug
+sconnect ldpwhvnwpsub_emit ull_coll by pplug
+sconnect phvnwdpw60_emit HVPW by pplug
+sconnect phvnwdpw60_emit coll by pplug
+sconnect phvnwdpw60_emit coll_od2 by pplug
+sconnect phvnwdpw60_emit ell_coll by pplug
+sconnect phvnwdpw60_emit hvnwdpwnbl_base by pplug
+sconnect phvnwdpw60_emit hvpdfd by pplug
+sconnect phvnwdpw60_emit n_psub by n_pplug
+sconnect phvnwdpw60_emit nhvpwdnw_4t_base by pplug
+sconnect phvnwdpw60_emit nhvpwnbl_base by pplug
+sconnect phvnwdpw60_emit nldpwhvnw_base by pplug
+sconnect phvnwdpw60_emit nlvpwnbl_base by pplug
+sconnect phvnwdpw60_emit npwnbl_base by pplug
+sconnect phvnwdpw60_emit nwhvpwnbl_base by pplug
+sconnect phvnwdpw60_emit phvnwdpw_col by pplug
+sconnect phvnwdpw60_emit psub by pplug
+sconnect phvnwdpw60_emit psub_term by pplug
+sconnect phvnwdpw60_emit pwhvnwdpw_col by pplug
+sconnect phvnwdpw60_emit rw_inside_dnw by pplug
+sconnect phvnwdpw60_emit ull_coll by pplug
+sconnect pwhvnwdpw_emit HVPW by pplug
+sconnect pwhvnwdpw_emit coll by pplug
+sconnect pwhvnwdpw_emit coll_od2 by pplug
+sconnect pwhvnwdpw_emit ell_coll by pplug
+sconnect pwhvnwdpw_emit hvnwdpwnbl_base by pplug
+sconnect pwhvnwdpw_emit hvpdfd by pplug
+sconnect pwhvnwdpw_emit n_psub by n_pplug
+sconnect pwhvnwdpw_emit nhvpwdnw_4t_base by pplug
+sconnect pwhvnwdpw_emit nhvpwnbl_base by pplug
+sconnect pwhvnwdpw_emit nldpwhvnw_base by pplug
+sconnect pwhvnwdpw_emit nlvpwnbl_base by pplug
+sconnect pwhvnwdpw_emit npwnbl_base by pplug
+sconnect pwhvnwdpw_emit nwhvpwnbl_base by pplug
+sconnect pwhvnwdpw_emit phvnwdpw_col by pplug
+sconnect pwhvnwdpw_emit psub by pplug
+sconnect pwhvnwdpw_emit psub_term by pplug
+sconnect pwhvnwdpw_emit pwhvnwdpw_col by pplug
+sconnect pwhvnwdpw_emit rw_inside_dnw by pplug
+sconnect pwhvnwdpw_emit ull_coll by pplug
+sconnect ull_emit HVPW by pplug
+sconnect ull_emit coll by pplug
+sconnect ull_emit coll_od2 by pplug
+sconnect ull_emit ell_coll by pplug
+sconnect ull_emit hvnwdpwnbl_base by pplug
+sconnect ull_emit hvpdfd by pplug
+sconnect ull_emit n_psub by n_pplug
+sconnect ull_emit nhvpwdnw_4t_base by pplug
+sconnect ull_emit nhvpwnbl_base by pplug
+sconnect ull_emit nldpwhvnw_base by pplug
+sconnect ull_emit nlvpwnbl_base by pplug
+sconnect ull_emit npwnbl_base by pplug
+sconnect ull_emit nwhvpwnbl_base by pplug
+sconnect ull_emit phvnwdpw_col by pplug
+sconnect ull_emit psub by pplug
+sconnect ull_emit psub_term by pplug
+sconnect ull_emit pwhvnwdpw_col by pplug
+sconnect ull_emit rw_inside_dnw by pplug
+sconnect ull_emit ull_coll by pplug
+sconnect pddhvnwpsub_emit HVPW by pplug
+sconnect pddhvnwpsub_emit coll by pplug
+sconnect pddhvnwpsub_emit coll_od2 by pplug
+sconnect pddhvnwpsub_emit ell_coll by pplug
+sconnect pddhvnwpsub_emit hvnwdpwnbl_base by pplug
+sconnect pddhvnwpsub_emit hvpdfd by pplug
+sconnect pddhvnwpsub_emit n_psub by n_pplug
+sconnect pddhvnwpsub_emit nhvpwdnw_4t_base by pplug
+sconnect pddhvnwpsub_emit nhvpwnbl_base by pplug
+sconnect pddhvnwpsub_emit nldpwhvnw_base by pplug
+sconnect pddhvnwpsub_emit nlvpwnbl_base by pplug
+sconnect pddhvnwpsub_emit npwnbl_base by pplug
+sconnect pddhvnwpsub_emit nwhvpwnbl_base by pplug
+sconnect pddhvnwpsub_emit phvnwdpw_col by pplug
+sconnect pddhvnwpsub_emit psub by pplug
+sconnect pddhvnwpsub_emit psub_term by pplug
+sconnect pddhvnwpsub_emit pwhvnwdpw_col by pplug
+sconnect pddhvnwpsub_emit rw_inside_dnw by pplug
+sconnect pddhvnwpsub_emit ull_coll by pplug
+sconnect phvnwpsub_emit HVPW by pplug
+sconnect phvnwpsub_emit coll by pplug
+sconnect phvnwpsub_emit coll_od2 by pplug
+sconnect phvnwpsub_emit ell_coll by pplug
+sconnect phvnwpsub_emit hvnwdpwnbl_base by pplug
+sconnect phvnwpsub_emit hvpdfd by pplug
+sconnect phvnwpsub_emit n_psub by n_pplug
+sconnect phvnwpsub_emit nhvpwdnw_4t_base by pplug
+sconnect phvnwpsub_emit nhvpwnbl_base by pplug
+sconnect phvnwpsub_emit nldpwhvnw_base by pplug
+sconnect phvnwpsub_emit nlvpwnbl_base by pplug
+sconnect phvnwpsub_emit npwnbl_base by pplug
+sconnect phvnwpsub_emit nwhvpwnbl_base by pplug
+sconnect phvnwpsub_emit phvnwdpw_col by pplug
+sconnect phvnwpsub_emit psub by pplug
+sconnect phvnwpsub_emit psub_term by pplug
+sconnect phvnwpsub_emit pwhvnwdpw_col by pplug
+sconnect phvnwpsub_emit rw_inside_dnw by pplug
+sconnect phvnwpsub_emit ull_coll by pplug
+sconnect tndiff HVNW_float by nplug
+sconnect d_tndiff HVNW_float by nplug
+sconnect hvndfs HVNW_float by nplug
+sconnect lcesdm HVNW_float by nplug
+sconnect rndd_term HVNW_float by nplug
+sconnect s_tndiff HVNW_float by nplug
+sconnect schottky_n HVNW_float by nplug
+sconnect ell_nemit HVNW_float by nplug
+sconnect hvnwdpwnbl60_emit HVNW_float by nplug
+sconnect nemit HVNW_float by nplug
+sconnect nemit_od2 HVNW_float by nplug
+sconnect nhvpwnbl60_emit HVNW_float by nplug
+sconnect nhvpwnbl_emit HVNW_float by nplug
+sconnect nldpwhvnw_emit HVNW_float by nplug
+sconnect nlvpwnbl60_emit HVNW_float by nplug
+sconnect nlvpwnbl_emit HVNW_float by nplug
+sconnect ntgdrain HVNW_float by nplug
+sconnect nwhvpwnbl60_emit HVNW_float by nplug
+sconnect nwhvpwnbl_emit HVNW_float by nplug
+sconnect ull_nemit HVNW_float by nplug
+sconnect nhvpwdnw_4t_emit HVNW_float by nplug
+sconnect npwnbl_emit HVNW_float by nplug
+sconnect tndiff nxwell_float by nplug
+sconnect d_tndiff nxwell_float by nplug
+sconnect hvndfs nxwell_float by nplug
+sconnect lcesdm nxwell_float by nplug
+sconnect rndd_term nxwell_float by nplug
+sconnect s_tndiff nxwell_float by nplug
+sconnect schottky_n nxwell_float by nplug
+sconnect ell_nemit nxwell_float by nplug
+sconnect hvnwdpwnbl60_emit nxwell_float by nplug
+sconnect nemit nxwell_float by nplug
+sconnect nemit_od2 nxwell_float by nplug
+sconnect nhvpwnbl60_emit nxwell_float by nplug
+sconnect nhvpwnbl_emit nxwell_float by nplug
+sconnect nldpwhvnw_emit nxwell_float by nplug
+sconnect nlvpwnbl60_emit nxwell_float by nplug
+sconnect nlvpwnbl_emit nxwell_float by nplug
+sconnect ntgdrain nxwell_float by nplug
+sconnect nwhvpwnbl60_emit nxwell_float by nplug
+sconnect nwhvpwnbl_emit nxwell_float by nplug
+sconnect ull_nemit nxwell_float by nplug
+sconnect nhvpwdnw_4t_emit nxwell_float by nplug
+sconnect npwnbl_emit nxwell_float by nplug
+sconnect tpdiff psub_float by pplug
+sconnect d_tndiff psub_float by pplug
+sconnect hvndfs psub_float by pplug
+sconnect lcesdm psub_float by pplug
+sconnect rndd_term psub_float by pplug
+sconnect s_tndiff psub_float by pplug
+sconnect schottky_n psub_float by pplug
+sconnect ell_nemit psub_float by pplug
+sconnect hvnwdpwnbl60_emit psub_float by pplug
+sconnect nemit psub_float by pplug
+sconnect nemit_od2 psub_float by pplug
+sconnect nhvpwnbl60_emit psub_float by pplug
+sconnect nhvpwnbl_emit psub_float by pplug
+sconnect nldpwhvnw_emit psub_float by pplug
+sconnect nlvpwnbl60_emit psub_float by pplug
+sconnect nlvpwnbl_emit psub_float by pplug
+sconnect ntgdrain psub_float by pplug
+sconnect nwhvpwnbl60_emit psub_float by pplug
+sconnect nwhvpwnbl_emit psub_float by pplug
+sconnect ull_nemit psub_float by pplug
+sconnect nhvpwdnw_4t_emit psub_float by pplug
+sconnect npwnbl_emit psub_float by pplug
+sconnect d_tpdiff psub_float by pplug
+sconnect hvpdfs psub_float by pplug
+sconnect lcesdp psub_float by pplug
+sconnect rpdd_term psub_float by pplug
+sconnect s_tpdiff psub_float by pplug
+sconnect schottky_p psub_float by pplug
+sconnect ell_emit psub_float by pplug
+sconnect emit psub_float by pplug
+sconnect emit_od2 psub_float by pplug
+sconnect ldpwhvnwpsub_emit psub_float by pplug
+sconnect phvnwdpw60_emit psub_float by pplug
+sconnect pwhvnwdpw_emit psub_float by pplug
+sconnect ull_emit psub_float by pplug
+sconnect pddhvnwpsub_emit psub_float by pplug
+sconnect phvnwpsub_emit psub_float by pplug
+model=mos[FG],FG
+element mos[FG] fggate fggate1 tndiff psub
+model=mos[HN],HN
+element mos[HN] hngate poly tndiff psub
+model=mos[HZ],HZ
+element mos[HZ] hzgate poly tndiff psub
+model=mos[N],N
+element mos[N] ngate poly tndiff psub
+model=mos[N1],N1
+element mos[N1] nrgate poly tndiff psub
+model=mos[N2],N2
+element mos[N2] bnrgate poly tndiff psub
+model=mos[NA],NA
+element mos[NA] mvt_ngate poly tndiff psub
+model=mos[NB],NB
+element mos[NB] bmvt_ngate poly tndiff psub
+model=mos[ND],ND
+element mos[ND] bngate poly tndiff psub
+model=mos[NF],NF
+element mos[NF] nfgate poly tndiff psub
+model=mos[NL],NL
+element mos[NL] nlgate poly tndiff psub
+model=mos[NN],NN
+element mos[NN] bnlgate poly tndiff psub
+model=mos[RT],RT
+element mos[RT] cnhgate poly tndiff psub
+model=mos[SF],SF
+element mos[SF] cnmgate poly tndiff psub
+model=mos[ST],ST
+element mos[ST] cngate poly tndiff psub
+model=mos[UN],UN
+element mos[UN] nulgate poly tndiff psub
+model=mos[NA],NA
+element mos[NA] mvt_ngate_nomac poly tndiff psub
+model=mos[NB],NB
+element mos[NB] bmvt_ngate_nomac poly tndiff psub
+model=mos[NB],NB
+element mos[NB] bmvt_ngate_mac poly tndiff psub
+model=mos[NA],NA
+element mos[NA] mvt_ngate_mac poly tndiff psub
+model=mos[NN],NN
+element mos[NN] bnlgate_mac poly tndiff psub
+model=mos[NL],NL
+element mos[NL] nlgate_mac poly tndiff psub
+model=mos[N2],N2
+element mos[N2] bnrgate_mac poly tndiff psub
+model=mos[ND],ND
+element mos[ND] bngate_mac poly tndiff psub
+model=mos[nch5_lvt],nch5_lvt
+element mos[nch5_lvt] bnngate poly tndiff psub
+model=mos[nch5_lvt_60],nch5_lvt_60
+element mos[nch5_lvt_60] bnngate_60 poly tndiff psub
+model=mos[nch_ana33],nch_ana33
+element mos[nch_ana33] bngate_ana33 poly tndiff psub
+model=mos[nch_ana33_dnw],nch_ana33_dnw
+element mos[nch_ana33_dnw] bngate_ana33_dnw poly tndiff psub
+model=mos[nch_ana33_dnw],nch_ana33_dnw
+element mos[nch_ana33_dnw] bngate_ana33_dnw_mac poly tndiff psub
+model=mos[nch_ana33],nch_ana33
+element mos[nch_ana33] bngate_ana33_mac poly tndiff psub
+model=mos[N1],N1
+element mos[N1] nrgate_mac poly tndiff psub
+model=mos[nch_ell],nch_ell
+element mos[nch_ell] nelgate poly tndiff psub
+model=mos[nch_ell],nch_ell
+element mos[nch_ell] nelgate_mac poly tndiff psub
+model=mos[N],N
+element mos[N] ngate_mac poly tndiff psub
+model=mos[nch_rs3],nch_rs3
+element mos[nch_rs3] nrsgate poly tndiff psub
+model=mos[nch_rt3],nch_rt3
+element mos[nch_rt3] nrtgate poly tndiff psub
+model=mos[nch_sf3],nch_sf3
+element mos[nch_sf3] nsfgate poly tndiff psub
+model=mos[UN],UN
+element mos[UN] nulgate_mac poly tndiff psub
+model=mos[HP],HP
+element mos[HP] hpgate poly tpdiff HVNW
+model=mos[P],P
+element mos[P] pgate poly tpdiff nxwell
+model=mos[PA],PA
+element mos[PA] mvt_pgate poly tpdiff nxwell
+model=mos[PD],PD
+element mos[PD] bpgate poly tpdiff nxwell
+model=mos[UP],UP
+element mos[UP] pulgate poly tpdiff nxwell
+model=mos[PA],PA
+element mos[PA] mvt_pgate_nomac poly tpdiff nxwell
+model=mos[PA],PA
+element mos[PA] mvt_pgate_mac poly tpdiff nxwell
+model=mos[PD],PD
+element mos[PD] bpgate_mac poly tpdiff nxwell
+model=mos[pch_ana33],pch_ana33
+element mos[pch_ana33] bpgate_ana33 poly tpdiff nxwell
+model=mos[pch_ana33],pch_ana33
+element mos[pch_ana33] bpgate_ana33_mac poly tpdiff nxwell
+model=mos[pch_ell],pch_ell
+element mos[pch_ell] pelgate poly tpdiff nxwell
+model=mos[pch_ell],pch_ell
+element mos[pch_ell] pelgate_mac poly tpdiff nxwell
+model=mos[P],P
+element mos[P] pgate_mac poly tpdiff nxwell
+model=mos[UP],UP
+element mos[UP] pulgate_mac poly tpdiff nxwell
+model=bjt[hvnwdpwnbl10_60],hvnwdpwnbl10_60
+element bjt[hvnwdpwnbl10_60] hvnwdpwnbl60_emit10 hvnwdpwnbl_col hvnwdpwnbl_base hvnwdpwnbl60_emit
+model=bjt[hvnwdpwnbl2_60],hvnwdpwnbl2_60
+element bjt[hvnwdpwnbl2_60] hvnwdpwnbl60_emit2 hvnwdpwnbl_col hvnwdpwnbl_base hvnwdpwnbl60_emit
+model=bjt[hvnwdpwnbl5_60],hvnwdpwnbl5_60
+element bjt[hvnwdpwnbl5_60] hvnwdpwnbl60_emit5 hvnwdpwnbl_col hvnwdpwnbl_base hvnwdpwnbl60_emit
+model=bjt[ldpwhvnwpsub10],ldpwhvnwpsub10
+element bjt[ldpwhvnwpsub10] ldpwhvnwpsub_emit10 ldpwhvnwpsub_col ldpwhvnwpsub_base ldpwhvnwpsub_emit
+model=bjt[ldpwhvnwpsub2],ldpwhvnwpsub2
+element bjt[ldpwhvnwpsub2] ldpwhvnwpsub_emit2 ldpwhvnwpsub_col ldpwhvnwpsub_base ldpwhvnwpsub_emit
+model=bjt[ldpwhvnwpsub5],ldpwhvnwpsub5
+element bjt[ldpwhvnwpsub5] ldpwhvnwpsub_emit5 ldpwhvnwpsub_col ldpwhvnwpsub_base ldpwhvnwpsub_emit
+model=bjt[nhvpwnbl10],nhvpwnbl10
+element bjt[nhvpwnbl10] nhvpwnbl_emit10 nhvpwnbl_col nhvpwnbl_base nhvpwnbl_emit
+model=bjt[nhvpwnbl10_60],nhvpwnbl10_60
+element bjt[nhvpwnbl10_60] nhvpwnbl60_emit10 nhvpwnbl_col nhvpwnbl_base nhvpwnbl60_emit
+model=bjt[nhvpwnbl2],nhvpwnbl2
+element bjt[nhvpwnbl2] nhvpwnbl_emit2 nhvpwnbl_col nhvpwnbl_base nhvpwnbl_emit
+model=bjt[nhvpwnbl5],nhvpwnbl5
+element bjt[nhvpwnbl5] nhvpwnbl_emit5 nhvpwnbl_col nhvpwnbl_base nhvpwnbl_emit
+model=bjt[nhvpwnbl5_60],nhvpwnbl5_60
+element bjt[nhvpwnbl5_60] nhvpwnbl60_emit5 nhvpwnbl_col nhvpwnbl_base nhvpwnbl60_emit
+model=bjt[nldpwhvnw10],nldpwhvnw10
+element bjt[nldpwhvnw10] nldpwhvnw_emit10 nldpwhvnw_col nldpwhvnw_base nldpwhvnw_emit
+model=bjt[nldpwhvnw2],nldpwhvnw2
+element bjt[nldpwhvnw2] nldpwhvnw_emit2 nldpwhvnw_col nldpwhvnw_base nldpwhvnw_emit
+model=bjt[nldpwhvnw5],nldpwhvnw5
+element bjt[nldpwhvnw5] nldpwhvnw_emit5 nldpwhvnw_col nldpwhvnw_base nldpwhvnw_emit
+model=bjt[npwnbl10_60],npwnbl10_60
+element bjt[npwnbl10_60] nlvpwnbl60_emit10 nlvpwnbl_col nlvpwnbl_base nlvpwnbl60_emit
+model=bjt[npwnbl2],npwnbl2
+element bjt[npwnbl2] nlvpwnbl_emit2 nlvpwnbl_col nlvpwnbl_base nlvpwnbl_emit
+model=bjt[npwnbl2_60],npwnbl2_60
+element bjt[npwnbl2_60] nlvpwnbl60_emit2 nlvpwnbl_col nlvpwnbl_base nlvpwnbl60_emit
+model=bjt[npwnbl5_60],npwnbl5_60
+element bjt[npwnbl5_60] nlvpwnbl60_emit5 nlvpwnbl_col nlvpwnbl_base nlvpwnbl60_emit
+model=bjt[nwhvpwnbl10],nwhvpwnbl10
+element bjt[nwhvpwnbl10] nwhvpwnbl_emit10 nwhvpwnbl_col nwhvpwnbl_base nwhvpwnbl_emit
+model=bjt[nwhvpwnbl10_60],nwhvpwnbl10_60
+element bjt[nwhvpwnbl10_60] nwhvpwnbl60_emit10 nwhvpwnbl_col nwhvpwnbl_base nwhvpwnbl60_emit
+model=bjt[nwhvpwnbl2],nwhvpwnbl2
+element bjt[nwhvpwnbl2] nwhvpwnbl_emit2 nwhvpwnbl_col nwhvpwnbl_base nwhvpwnbl_emit
+model=bjt[nwhvpwnbl2_60],nwhvpwnbl2_60
+element bjt[nwhvpwnbl2_60] nwhvpwnbl60_emit2 nwhvpwnbl_col nwhvpwnbl_base nwhvpwnbl60_emit
+model=bjt[nwhvpwnbl5],nwhvpwnbl5
+element bjt[nwhvpwnbl5] nwhvpwnbl_emit5 nwhvpwnbl_col nwhvpwnbl_base nwhvpwnbl_emit
+model=bjt[nwhvpwnbl5_60],nwhvpwnbl5_60
+element bjt[nwhvpwnbl5_60] nwhvpwnbl60_emit5 nwhvpwnbl_col nwhvpwnbl_base nwhvpwnbl60_emit
+model=bjt[pddhvnwpsub10],pddhvnwpsub10
+element bjt[pddhvnwpsub10] pddhvnwpsub_emit10 hvnwpsub_col hvnw_base pddhvnwpsub_emit
+model=bjt[pddhvnwpsub2],pddhvnwpsub2
+element bjt[pddhvnwpsub2] pddhvnwpsub_emit2 hvnwpsub_col hvnw_base pddhvnwpsub_emit
+model=bjt[pddhvnwpsub5],pddhvnwpsub5
+element bjt[pddhvnwpsub5] pddhvnwpsub_emit5 hvnwpsub_col hvnw_base pddhvnwpsub_emit
+model=bjt[phvnwdpw10_60],phvnwdpw10_60
+element bjt[phvnwdpw10_60] phvnwdpw60_emit10 phvnwdpw_col phvnwdpw_base phvnwdpw60_emit
+model=bjt[phvnwdpw2_60],phvnwdpw2_60
+element bjt[phvnwdpw2_60] phvnwdpw60_emit2 phvnwdpw_col phvnwdpw_base phvnwdpw60_emit
+model=bjt[phvnwdpw5_60],phvnwdpw5_60
+element bjt[phvnwdpw5_60] phvnwdpw60_emit5 phvnwdpw_col phvnwdpw_base phvnwdpw60_emit
+model=bjt[phvnwpsub10],phvnwpsub10
+element bjt[phvnwpsub10] phvnwpsub_emit10 hvnwpsub_col hvnw_base phvnwpsub_emit
+model=bjt[phvnwpsub2],phvnwpsub2
+element bjt[phvnwpsub2] phvnwpsub_emit2 hvnwpsub_col hvnw_base phvnwpsub_emit
+model=bjt[phvnwpsub5],phvnwpsub5
+element bjt[phvnwpsub5] phvnwpsub_emit5 hvnwpsub_col hvnw_base phvnwpsub_emit
+model=bjt[pwhvnwdpw10],pwhvnwdpw10
+element bjt[pwhvnwdpw10] pwhvnwdpw_emit10 pwhvnwdpw_col pwhvnwdpw_base pwhvnwdpw_emit
+model=bjt[pwhvnwdpw2],pwhvnwdpw2
+element bjt[pwhvnwdpw2] pwhvnwdpw_emit2 pwhvnwdpw_col pwhvnwdpw_base pwhvnwdpw_emit
+model=bjt[pwhvnwdpw5],pwhvnwdpw5
+element bjt[pwhvnwdpw5] pwhvnwdpw_emit5 pwhvnwdpw_col pwhvnwdpw_base pwhvnwdpw_emit
+model=diode[D1],pdio_3
+element diode[D1] pdio_IO tpdiff nxwell
+model=diode[D2],ndio_3
+element diode[D2] ndio_IO psub tndiff
+model=diode[D3],nwdio_3
+element diode[D3] nwdio_IO psub nxwell
+model=diode[DB],endio_3
+element diode[DB] ydio psub tndiff
+model=diode[DC],nnps_cis
+element diode[DC] wdio_s psub tndiff
+model=diode[DN],ndio
+element diode[DN] ndio psub tndiff
+model=diode[DP],pdio
+element diode[DP] pdio tpdiff nxwell
+model=diode[DW],nwdio
+element diode[DW] nwdio psub nxwell
+model=diode[DY],nwdio_cis
+element diode[DY] pwdio_s psub tndiff
+model=diode[dpwnbl_dio],dpwnbl_dio
+element diode[dpwnbl_dio] dpwnbldio tpdiff NBL
+model=diode[dpwnbl_dio_60],dpwnbl_dio_60
+element diode[dpwnbl_dio_60] dpwnbldio_60 tpdiff NBL
+model=diode[hvnwdio_hv],hvnwdio_hv
+element diode[hvnwdio_hv] hvnwdio psub HVNW
+model=diode[hvnwdnwpsubhvpw_dio],hvnwdnwpsubhvpw_dio
+element diode[hvnwdnwpsubhvpw_dio] hvdnwdio HVPW HVNW
+model=diode[hvnwpsub_dio],hvnwpsub_dio
+element diode[hvnwpsub_dio] hvnwpsubdio psub HVNW
+model=diode[hvpwdio_hv],hvpwdio_hv
+element diode[hvpwdio_hv] hvpwdio tpdiff HVNW
+model=diode[hvpwhvnwnbl_dio],hvpwhvnwnbl_dio
+element diode[hvpwhvnwnbl_dio] hvpwhvnwnbldio tpdiff HVNW
+model=diode[hvpwhvnwnbl_dio_60],hvpwhvnwnbl_dio_60
+element diode[hvpwhvnwnbl_dio_60] hvpwhvnwnbldio_60 tpdiff HVNW
+model=diode[ldpwhvnw_dio],ldpwhvnw_dio
+element diode[ldpwhvnw_dio] ldpwhvnwdio psub HVNW
+model=diode[lvpwdio_hv],lvpwdio_hv
+element diode[lvpwdio_hv] hvlvpwdio psub NBL
+model=diode[nbldio_hv],nbldio_hv
+element diode[nbldio_hv] hvnbldio HVPW HVNW
+model=diode[nblpepi_dio],nblpepi_dio
+element diode[nblpepi_dio] nblpepidio HVPW HVNW
+model=diode[nblpepi_dio_60],nblpepi_dio_60
+element diode[nblpepi_dio_60] nblpepidio_60 HVPW HVNW
+model=diode[nddhvpw_dio],nddhvpw_dio
+element diode[nddhvpw_dio] ndddio HVPW tndiff
+model=diode[ndio_3m],ndio_3m
+element diode[ndio_3m] ndio_IO_m psub tndiff
+model=diode[ndio_ell],ndio_ell
+element diode[ndio_ell] ndio_ell psub tndiff
+model=diode[ndio_hv],ndio_hv
+element diode[ndio_hv] hvndio HVPW tndiff
+model=diode[ndio_m],ndio_m
+element diode[ndio_m] ndio_m psub tndiff
+model=diode[ndio_ull],ndio_ull
+element diode[ndio_ull] ndio_ull psub tndiff
+model=diode[nhvpw_dio],nhvpw_dio
+element diode[nhvpw_dio] nhvpwdio HVPW tndiff
+model=diode[nhvpw_dio_60],nhvpw_dio_60
+element diode[nhvpw_dio_60] nhvpwdio_60 HVPW tndiff
+model=diode[npdd_dio],npdd_dio
+element diode[npdd_dio] npdddio psub tndiff
+model=diode[nwdio_bg_cis],nwdio_bg_cis
+element diode[nwdio_bg_cis] nwdio_bg psub nw_bg_diff
+model=diode[nwdio_ell],nwdio_ell
+element diode[nwdio_ell] nwdio_ell psub nxwell
+model=diode[nwdio_ull],nwdio_ull
+element diode[nwdio_ull] nwdio_ull psub nxwell
+model=diode[pddhvnw_dio],pddhvnw_dio
+element diode[pddhvnw_dio] pddhvnwdio tpdiff HVNW
+model=diode[pdio_ell],pdio_ell
+element diode[pdio_ell] pdio_ell tpdiff nxwell
+model=diode[pdio_hv],pdio_hv
+element diode[pdio_hv] hvpdio tpdiff HVNW
+model=diode[pdio_m],pdio_m
+element diode[pdio_m] pdio_m tpdiff nxwell
+model=diode[pdio_ull],pdio_ull
+element diode[pdio_ull] pdio_ull tpdiff nxwell
+model=diode[phvnw_dio],phvnw_dio
+element diode[phvnw_dio] phvnwdio tpdiff HVNW
+model=diode[phvnw_dio_60],phvnw_dio_60
+element diode[phvnw_dio_60] phvnwdio_60 tpdiff HVNW
+model=diode[pwhvnw_dio],pwhvnw_dio
+element diode[pwhvnw_dio] pwhvnwdio tpdiff HVNW
+model=diode[pwhvnw_dio_60],pwhvnw_dio_60
+element diode[pwhvnw_dio_60] pwhvnwdio_60 tpdiff HVNW
+model=diode[zd_dio],zd_dio
+element diode[zd_dio] zd_hv_dio HVPW tndiff
+model=diode[zd_dio_60],zd_dio_60
+element diode[zd_dio_60] zd_hv_dio_60 HVPW tndiff
+model=res[LR],LR
+element res[LR] hrpo_2t poly
+model=res[M1],M1
+element res[M1] mt1res metal1
+model=res[M2],M2
+element res[M2] mt2res metal2
+model=res[ND],ND
+element res[ND] nrdop tndiff
+model=res[NI],NI
+element res[NI] rnodip tndiff
+model=res[NI],NI
+element res[NI] rnodipw tndiff
+model=res[NR],NR
+element res[NR] rnporpo poly
+model=res[NS],NS
+element res[NS] rnpoip poly
+model=res[NS],NS
+element res[NS] rnpoipw poly
+model=res[PD],PD
+element res[PD] prdop tpdiff
+model=res[PI],PI
+element res[PI] rpodip tpdiff
+model=res[PI],PI
+element res[PI] rpodipw tpdiff
+model=res[PR],PR
+element res[PR] rpporpo poly
+model=res[PS],PS
+element res[PS] rppoip poly
+model=res[PS],PS
+element res[PS] rppoipw poly
+model=res[WO],WO
+element res[WO] nwod nxwell
+model=res[WR],WR
+element res[WR] nwsti nxwell
+model=diode[DZ],nci_cis
+element diode[DZ] cwdio_s psub tndiff
+model=diode[DZ],dz
+element diode[DZ] zenpdif tpdiff HVNW
+model=res[MT],MT
+element res[MT] mt3res metal3
+model=bjt[NV],NV
+element bjt[NV] nemit10 ncoll pbase nemit
+model=bjt[NV_mis],NV_mis
+element bjt[NV_mis] nemit10_mis ncoll pbase nemit
+model=bjt[NV],NV
+element bjt[NV] nemit2 ncoll pbase nemit
+model=bjt[NV_mis],NV_mis
+element bjt[NV_mis] nemit2_mis ncoll pbase nemit
+model=bjt[NV],NV
+element bjt[NV] nemit5 ncoll pbase nemit
+model=bjt[NV_mis],NV_mis
+element bjt[NV_mis] nemit5_mis ncoll pbase nemit
+model=bjt[P1],P1
+element bjt[P1] iemit10 coll_od2 nbase_od2 emit_od2
+model=bjt[P1],P1
+element bjt[P1] iemit2 coll_od2 nbase_od2 emit_od2
+model=bjt[P1],P1
+element bjt[P1] iemit5 coll_od2 nbase_od2 emit_od2
+model=bjt[PV],PV
+element bjt[PV] emit10 coll nbase emit
+model=bjt[PV_mis],PV_mis
+element bjt[PV_mis] emit10_mis coll nbase emit
+model=bjt[PV],PV
+element bjt[PV] emit2 coll nbase emit
+model=bjt[PV_mis],PV_mis
+element bjt[PV_mis] emit2_mis coll nbase emit
+model=bjt[PV],PV
+element bjt[PV] emit5 coll nbase emit
+model=bjt[PV_mis],PV_mis
+element bjt[PV_mis] emit5_mis coll nbase emit
+model=generic[efuse],efuse
+element generic[efuse] poly_fuse poly[PLUS] poly[MINUS]
+model=generic[hvpwdnwhvnw_dio_hvpw_3t],hvpwdnwhvnw_dio_hvpw_3t
+element generic[hvpwdnwhvnw_dio_hvpw_3t] hvpwdio_18_reg tpdiff[PLUS] HVNW[MINUS] psub_under_dnw[SUB]
+model=generic[lcesd1_rf],lcesd1_rf
+element generic[lcesd1_rf] lcesd1_rl lcesdp[PLUS] lcesdm[MINUS]
+model=generic[lcesd2_rf],lcesd2_rf
+element generic[lcesd2_rf] lcesd2_rl lcesdp[PLUS] lcesdm[MINUS]
+model=generic[lvpwdnwhvnw_dio_hvpw_3t],lvpwdnwhvnw_dio_hvpw_3t
+element generic[lvpwdnwhvnw_dio_hvpw_3t] lvpwdnwhvnw_dio_reg psub[PLUS] HVNW[MINUS] psub_under_dnw[SUB]
+model=generic[mimcap_1p0_sin],mimcap_1p0_sin
+element generic[mimcap_1p0_sin] capm2_1p0_udc ctm[TOP] metal2[BOT]
+model=generic[mimcap_1p0_sin_3t],mimcap_1p0_sin_3t
+element generic[mimcap_1p0_sin_3t] capm2_1p0_3tc ctm[PLUS] metal2[MINUS] mim_term[BULK]
+model=generic[mimcap_1p0_sin_hl],mimcap_1p0_sin_hl
+element generic[mimcap_1p0_sin_hl] capm2_1p0_hl_2t ctm[TOP] metal2[BOT]
+model=generic[mimcap_1p0_sin_hl_3t],mimcap_1p0_sin_hl_3t
+element generic[mimcap_1p0_sin_hl_3t] capm2_1p0_hl_3t ctm[PLUS] metal2[MINUS] mim_term[BULK]
+model=generic[mimcap_1p5_sin],mimcap_1p5_sin
+element generic[mimcap_1p5_sin] capm2_1p5_udc ctm[TOP] metal2[BOT]
+model=generic[mimcap_1p5_sin_3t],mimcap_1p5_sin_3t
+element generic[mimcap_1p5_sin_3t] capm2_1p5_3t ctm[PLUS] metal2[MINUS] mim_term[BULK]
+model=generic[mimcap_2p0_sin],mimcap_2p0_sin
+element generic[mimcap_2p0_sin] capm2_2p0_udc ctm[TOP] metal2[BOT]
+model=generic[mimcap_2p0_sin_3ds],mimcap_2p0_sin_3ds
+element generic[mimcap_2p0_sin_3ds] capm2_2p0_sin_3ds cmm[TOP] metal2[BOTTOM]
+model=generic[mimcap_2p0_sin_3ds_3t],mimcap_2p0_sin_3ds_3t
+element generic[mimcap_2p0_sin_3ds_3t] capm2_2p0_sin_3ds_3t cmm[TOP] metal2[BOTTOM] mim_term_sandwich_3t[GNODE]
+model=generic[mimcap_2p0_sin_3t],mimcap_2p0_sin_3t
+element generic[mimcap_2p0_sin_3t] capm2_2p0_3tc ctm[PLUS] metal2[MINUS] mim_term[BULK]
+model=generic[mimcap_4p0_sin_3dshs],mimcap_4p0_sin_3dshs
+element generic[mimcap_4p0_sin_3dshs] capm2_4p0_sin_3dshs cmm[TOP] metal2[BOTTOM]
+model=generic[mimcap_4p0_sin_3dshs_3t],mimcap_4p0_sin_3dshs_3t
+element generic[mimcap_4p0_sin_3dshs_3t] capm2_4p0_sin_3dshs_3t cmm[TOP] metal2[BOTTOM] mim_term_sandwich_3t[GNODE]
+model=generic[nch_hv5_5vnw_ac],nch_hv5_5vnw_ac
+element generic[nch_hv5_5vnw_ac] ioldnmos_reg nxwell[D] poly[G] tndiff[S] psub[B]
+model=generic[nch_hva],nch_hva
+element generic[nch_hva] ngthva hvndfd[D] poly[G] hvndfs[S] HVPW[B]
+model=generic[nch_hva_lg],nch_hva_lg
+element generic[nch_hva_lg] ngthva_lg hvndfd[D] poly[G] hvndfs[S] HVPW[B]
+model=generic[nch_hva_mac],nch_hva_mac
+element generic[nch_hva_mac] ngthvan_mac hvndfd[D] poly[G] hvndfs[S] HVPW[B]
+model=generic[nch_hva_ndd_mac],nch_hva_ndd_mac
+element generic[nch_hva_ndd_mac] ngthva_mac hvndfd[D] poly[G] hvndfs[S] HVPW[B]
+model=generic[nch_hvau_ndd_mac],nch_hvau_ndd_mac
+element generic[nch_hvau_ndd_mac] ngthvau hvndfd[D] poly[G] hvndfs[S] HVPW[B]
+model=generic[nch_hvi],nch_hvi
+element generic[nch_hvi] ngthvi hvndfd[D] poly[G] hvndfs[S] HVPW[B]
+model=generic[nch_hvi_lg],nch_hvi_lg
+element generic[nch_hvi_lg] ngthvi_lg hvndfd[D] poly[G] hvndfs[S] HVPW[B]
+model=generic[nch_hvi_mac],nch_hvi_mac
+element generic[nch_hvi_mac] ngthvi_mac hvndfd[D] poly[G] hvndfs[BS] psub_under_dnw[SUB]
+model=generic[nch_hviah_ndd_mac],nch_hviah_ndd_mac
+element generic[nch_hviah_ndd_mac] ngthvia hvndfd[D] poly[G] hvndfs[S] HVPW[B]
+model=generic[nch_hvish_nbl_mac],nch_hvish_nbl_mac
+element generic[nch_hvish_nbl_mac] ngthvish_reg hvndfd[D] poly[G] hvndfd[S] HVPW[B] NBL[NBL_ISO] psub_under_nbl[SUB]
+model=generic[nch_hvish_ndd_mac],nch_hvish_ndd_mac
+element generic[nch_hvish_ndd_mac] ngthvis hvndfd[D] poly[G] hvndfd[S] HVPW[B]
+model=generic[nch_hvisl_mac],nch_hvisl_mac
+element generic[nch_hvisl_mac] ngt_lhli tndiff[D] poly[G] tndiff[S] HVPW[B]
+model=generic[nch_hvnw_6t],nch_hvnw_6t
+element generic[nch_hvnw_6t] nch_hvnw_6t_reg tndiff[D] poly[G] tndiff[S] psub[B] iso_hvnw[HVNW_ISO] psub_under_hvnw[SUB]
+model=mos[nch_hvs],nch_hvs
+element mos[nch_hvs] ngthvs poly hvndfd HVPW
+model=mos[nch_hvs_lg],nch_hvs_lg
+element mos[nch_hvs_lg] ngthvs_lg poly hvndfd HVPW
+model=generic[nch_hvs_mac],nch_hvs_mac
+element generic[nch_hvs_mac] ngthvsn_mac hvndfd[D] poly[G] hvndfd[S] HVPW[B]
+model=generic[nch_hvs_ndd_mac],nch_hvs_ndd_mac
+element generic[nch_hvs_ndd_mac] ngthvs_mac hvndfd[D] poly[G] hvndfd[S] HVPW[B]
+model=generic[nch_hvsl_mac],nch_hvsl_mac
+element generic[nch_hvsl_mac] ngt_lhl tndiff[D] poly[G] tndiff[S] HVPW[B]
+model=generic[nch_hvsu_ndd_mac],nch_hvsu_ndd_mac
+element generic[nch_hvsu_ndd_mac] ngthvsu hvndfd[D] poly[G] hvndfd[S] HVPW[B]
+model=generic[nch_tg3],nch_tg3
+element generic[nch_tg3] ntggate ntgdrain[D] poly[G] pidiff[S] psub[B]
+model=generic[ndld24_g5],ndld24_g5
+element generic[ndld24_g5] ndld24g5_reg hvndfd[D] poly[G] hvndfs[S] HVPW[B]
+model=generic[ndld24_g5_ac],ndld24_g5_ac
+element generic[ndld24_g5_ac] ndld24g5_ac hvndfd[D] poly[G] hvndfs[BS] psub_under_nbl[SUB]
+model=generic[ndld40_g5],ndld40_g5
+element generic[ndld40_g5] ndld40g5_reg hvndfd[D] poly[G] hvndfs[S] HVPW[B]
+model=generic[ndld40_g5_ac],ndld40_g5_ac
+element generic[ndld40_g5_ac] ndld40g5_ac hvndfd[D] poly[G] hvndfs[BS] psub_under_nbl[SUB]
+model=generic[nhvpwdnw10_4t],nhvpwdnw10_4t
+element generic[nhvpwdnw10_4t] nhvpwdnw_4t_emit10 nhvpwdnw_4t_col[C] nhvpwdnw_4t_base[B] nhvpwdnw_4t_emit[E] psub_under_dnw[SUB]
+model=generic[nhvpwdnw5_4t],nhvpwdnw5_4t
+element generic[nhvpwdnw5_4t] nhvpwdnw_4t_emit5 nhvpwdnw_4t_col[C] nhvpwdnw_4t_base[B] nhvpwdnw_4t_emit[E] psub_under_dnw[SUB]
+model=generic[nld12_g12],nld12_g12
+element generic[nld12_g12] nld12g12_reg hvndfd[D] poly[G] hvndfs[S] psub[B]
+model=generic[nld12_g12_mac],nld12_g12_mac
+element generic[nld12_g12_mac] nld12g12_mac hvndfd[D] poly[G] hvndfs[BS] psub_under_hvnw[SUB]
+model=generic[nld12_g2],nld12_g2
+element generic[nld12_g2] nld12g2_reg hvndfd[D] poly[G] hvndfs[S] psub[B]
+model=generic[nld12_g2_mac],nld12_g2_mac
+element generic[nld12_g2_mac] nld12g2_mac hvndfd[D] poly[G] hvndfs[BS] psub_under_hvnw[SUB]
+model=generic[nld14_g12],nld14_g12
+element generic[nld14_g12] nld14g12_reg hvndfd[D] poly[G] hvndfs[S] psub[B]
+model=generic[nld14_g12_mac],nld14_g12_mac
+element generic[nld14_g12_mac] nld14g12_mac hvndfd[D] poly[G] hvndfs[BS] psub_under_hvnw[SUB]
+model=generic[nld14_g2],nld14_g2
+element generic[nld14_g2] nld14g2_reg hvndfd[D] poly[G] hvndfs[S] psub[B]
+model=generic[nld14_g2_mac],nld14_g2_mac
+element generic[nld14_g2_mac] nld14g2_mac hvndfd[D] poly[G] hvndfs[BS] psub_under_hvnw[SUB]
+model=generic[nld18_g5],nld18_g5
+element generic[nld18_g5] nld18g5_reg hvndfd[D] poly[G] hvndfs[S] HVPW[B]
+model=generic[nld18_g5_ac],nld18_g5_ac
+element generic[nld18_g5_ac] nld18g5_ac hvndfd[D] poly[G] hvndfs[BS] psub_under_nbl[SUB]
+model=generic[nld24_g5],nld24_g5
+element generic[nld24_g5] nld24g5_reg hvndfd[D] poly[G] hvndfs[S] HVPW[B]
+model=generic[nld24_g5_ac],nld24_g5_ac
+element generic[nld24_g5_ac] nld24g5_ac hvndfd[D] poly[G] hvndfs[BS] psub_under_nbl[SUB]
+model=generic[nld32_g5],nld32_g5
+element generic[nld32_g5] nld32g5_reg hvndfd[D] poly[G] hvndfs[S] HVPW[B]
+model=generic[nld32_g5_ac],nld32_g5_ac
+element generic[nld32_g5_ac] nld32g5_ac hvndfd[D] poly[G] hvndfs[BS] psub_under_nbl[SUB]
+model=generic[nld40_g5],nld40_g5
+element generic[nld40_g5] nld40g5_reg hvndfd[D] poly[G] hvndfs[S] HVPW[B]
+model=generic[nld40_g5_ac],nld40_g5_ac
+element generic[nld40_g5_ac] nld40g5_ac hvndfd[D] poly[G] hvndfs[BS] psub_under_nbl[SUB]
+model=generic[nld60_g5],nld60_g5
+element generic[nld60_g5] nld60g5_reg hvndfd[D] poly[G] hvndfs[S] HVPW[B]
+model=generic[nld60_g5_ac],nld60_g5_ac
+element generic[nld60_g5_ac] nld60g5_ac hvndfd[D] poly[G] hvndfs[BS] psub_under_nbl[SUB]
+model=generic[nmoscap],nmoscap
+element generic[nmoscap] nmoscap_reg poly[PLUS] tndiff[MINUS]
+model=generic[nmoscap_33],nmoscap_33
+element generic[nmoscap_33] nmoscap_33_reg poly[PLUS] tndiff[MINUS]
+model=generic[nmoscap_33_mis],nmoscap_33_mis
+element generic[nmoscap_33_mis] nmoscap_33_mis_reg poly[PLUS] tndiff[MINUS]
+model=generic[nmoscap_mis],nmoscap_mis
+element generic[nmoscap_mis] nmoscap_mis_reg poly[PLUS] tndiff[MINUS]
+model=bjt[npn10_ell],npn10_ell
+element bjt[npn10_ell] ell_nemit10 ell_ncoll pbase ell_nemit
+model=bjt[npn10_ell_mis],npn10_ell_mis
+element bjt[npn10_ell_mis] ell_nemit10_mis ell_ncoll pbase ell_nemit
+model=bjt[npn10_ull],npn10_ull
+element bjt[npn10_ull] ull_nemit10 ull_ncoll pbase ull_nemit
+model=bjt[npn10_ull_mis],npn10_ull_mis
+element bjt[npn10_ull_mis] ull_nemit10_mis ull_ncoll pbase ull_nemit
+model=bjt[npn2_ell],npn2_ell
+element bjt[npn2_ell] ell_nemit2 ell_ncoll pbase ell_nemit
+model=bjt[npn2_ell_mis],npn2_ell_mis
+element bjt[npn2_ell_mis] ell_nemit2_mis ell_ncoll pbase ell_nemit
+model=bjt[npn2_ull],npn2_ull
+element bjt[npn2_ull] ull_nemit2 ull_ncoll pbase ull_nemit
+model=bjt[npn2_ull_mis],npn2_ull_mis
+element bjt[npn2_ull_mis] ull_nemit2_mis ull_ncoll pbase ull_nemit
+model=bjt[npn5_ell],npn5_ell
+element bjt[npn5_ell] ell_nemit5 ell_ncoll pbase ell_nemit
+model=bjt[npn5_ell_mis],npn5_ell_mis
+element bjt[npn5_ell_mis] ell_nemit5_mis ell_ncoll pbase ell_nemit
+model=bjt[npn5_ull],npn5_ull
+element bjt[npn5_ull] ull_nemit5 ull_ncoll pbase ull_nemit
+model=bjt[npn5_ull_mis],npn5_ull_mis
+element bjt[npn5_ull_mis] ull_nemit5_mis ull_ncoll pbase ull_nemit
+model=bjt[npwnbl10],npwnbl10
+element bjt[npwnbl10] nlvpwnbl_emit10 nlvpwnbl_col nlvpwnbl_base nlvpwnbl_emit
+model=bjt[npwnbl10],npwnbl10
+element bjt[npwnbl10] npwnbl_emit10 npwnbl_col npwnbl_base npwnbl_emit
+model=bjt[npwnbl5],npwnbl5
+element bjt[npwnbl5] nlvpwnbl_emit5 nlvpwnbl_col nlvpwnbl_base nlvpwnbl_emit
+model=bjt[npwnbl5],npwnbl5
+element bjt[npwnbl5] npwnbl_emit5 npwnbl_col npwnbl_base npwnbl_emit
+model=res[nvmrpodrpo],nvmrpodrpo
+element res[nvmrpodrpo] prdop_nvm tpdiff
+model=generic[nvmrpodrpo_m],nvmrpodrpo_m
+element generic[nvmrpodrpo_m] prdop_3t_nvm tpdiff[PLUS] tpdiff[MINUS] nxwell[B]
+model=generic[pa14_g12],pa14_g12
+element generic[pa14_g12] pa14g12_reg hvpdfd[D] poly[G] hvpdfs[S] HVNW[B]
+model=generic[pa14_g2],pa14_g2
+element generic[pa14_g2] pa14g2_reg hvpdfd[D] poly[G] hvpdfs[S] HVNW[B]
+model=generic[pa18_g5],pa18_g5
+element generic[pa18_g5] pa18g5_reg hvpdfd[D] poly[G] hvpdfs[S] HVNW[B]
+model=generic[pa18_g5_ac],pa18_g5_ac
+element generic[pa18_g5_ac] pa18g5_ac hvpdfd[D] poly[G] hvpdfs[S] HVNW[B] psub_under_nbl[SUB]
+model=generic[pa24_g5],pa24_g5
+element generic[pa24_g5] pa24g5_reg hvpdfd[D] poly[G] hvpdfs[S] HVNW[B]
+model=generic[pa24_g5_ac],pa24_g5_ac
+element generic[pa24_g5_ac] pa24g5_ac hvpdfd[D] poly[G] hvpdfs[S] HVNW[B] psub_under_nbl[SUB]
+model=generic[pa32_g5],pa32_g5
+element generic[pa32_g5] pa32g5_reg hvpdfd[D] poly[G] hvpdfs[S] HVNW[B]
+model=generic[pa32_g5_ac],pa32_g5_ac
+element generic[pa32_g5_ac] pa32g5_ac hvpdfd[D] poly[G] hvpdfs[S] HVNW[B] psub_under_nbl[SUB]
+model=generic[pa40_g5_full_soa],pa40_g5_full_soa
+element generic[pa40_g5_full_soa] pa40g5soa_reg hvpdfd[D] poly[G] hvpdfs[S] HVNW[B]
+model=generic[pa40_g5_full_soa_ac],pa40_g5_full_soa_ac
+element generic[pa40_g5_full_soa_ac] pa40g5soa_ac hvpdfd[D] poly[G] hvpdfs[S] HVNW[B] psub_under_nbl[SUB]
+model=generic[pa40_g5_low_ron],pa40_g5_low_ron
+element generic[pa40_g5_low_ron] pa40g5ron_reg hvpdfd[D] poly[G] hvpdfs[S] HVNW[B]
+model=generic[pa40_g5_low_ron_ac],pa40_g5_low_ron_ac
+element generic[pa40_g5_low_ron_ac] pa40g5ron_ac hvpdfd[D] poly[G] hvpdfs[S] HVNW[B] psub_under_nbl[SUB]
+model=generic[pa50_g5],pa50_g5
+element generic[pa50_g5] pa50g5_reg hvpdfd[D] poly[G] hvpdfs[S] HVNW[B]
+model=generic[pa50_g5_ac],pa50_g5_ac
+element generic[pa50_g5_ac] pa50g5_ac hvpdfd[D] poly[G] hvpdfs[S] HVNW[B] psub_under_nbl[SUB]
+model=generic[pa60_g5_full_soa],pa60_g5_full_soa
+element generic[pa60_g5_full_soa] pa60g5soa_reg hvpdfd[D] poly[G] hvpdfs[S] HVNW[B]
+model=generic[pa60_g5_full_soa_ac],pa60_g5_full_soa_ac
+element generic[pa60_g5_full_soa_ac] pa60g5soa_ac hvpdfd[D] poly[G] hvpdfs[S] HVNW[B] psub_under_nbl[SUB]
+model=generic[pch_5t],pch_5t
+element generic[pch_5t] pch_5t_reg tpdiff[D] poly[G] tpdiff[S] iso_hvnw[B] psub_under_hvnw[SUB]
+model=generic[pch_hva],pch_hva
+element generic[pch_hva] pgthva hvpdfd[D] poly[G] hvpdfs[S] HVNW[B]
+model=generic[pch_hva_lg],pch_hva_lg
+element generic[pch_hva_lg] pgthva_lg hvpdfd[D] poly[G] hvpdfs[S] HVNW[B]
+model=generic[pch_hva_mac],pch_hva_mac
+element generic[pch_hva_mac] pgthvan_mac hvpdfd[D] poly[G] hvpdfs[S] HVNW[B] psub_under_dnw[SUB]
+model=generic[pch_hva_pdd_mac],pch_hva_pdd_mac
+element generic[pch_hva_pdd_mac] pgthva_mac hvpdfd[D] poly[G] hvpdfs[S] HVNW[B]
+model=generic[pch_hvau_pdd_mac],pch_hvau_pdd_mac
+element generic[pch_hvau_pdd_mac] pgthvau hvpdfd[D] poly[G] hvpdfs[S] HVNW[B]
+model=mos[pch_hvs],pch_hvs
+element mos[pch_hvs] pgthvs poly hvpdfd HVNW
+model=mos[pch_hvs_lg],pch_hvs_lg
+element mos[pch_hvs_lg] pgthvs_lg poly hvpdfd HVNW
+model=generic[pch_hvs_mac],pch_hvs_mac
+element generic[pch_hvs_mac] pgthvsn_mac hvpdfd[D] poly[G] hvpdfd[S] HVNW[B] psub_under_dnw[SUB]
+model=generic[pch_hvs_pdd_mac],pch_hvs_pdd_mac
+element generic[pch_hvs_pdd_mac] pgthvs_mac hvpdfd[D] poly[G] hvpdfd[S] HVNW[B]
+model=generic[pch_hvsl_mac],pch_hvsl_mac
+element generic[pch_hvsl_mac] pgt_lhl tpdiff[D] poly[G] tpdiff[S] HVNW[B]
+model=generic[pch_hvsu_pdd_mac],pch_hvsu_pdd_mac
+element generic[pch_hvsu_pdd_mac] pgthvsu hvpdfd[D] poly[G] hvpdfd[S] HVNW[B]
+model=generic[phvnw_dio_hvpw_3t],phvnw_dio_hvpw_3t
+element generic[phvnw_dio_hvpw_3t] phvnw_dio_18_reg tpdiff[PLUS] HVNW[MINUS] psub_under_hvnw[SUB]
+model=diode[pindio_cis],pindio_cis
+element diode[pindio_cis] pindio psub pidiff
+model=bjt[pnp10_ell],pnp10_ell
+element bjt[pnp10_ell] ell_emit10 ell_coll ell_nbase ell_emit
+model=bjt[pnp10_ell_mis],pnp10_ell_mis
+element bjt[pnp10_ell_mis] ell_emit10_mis ell_coll ell_nbase ell_emit
+model=bjt[pnp10_ull],pnp10_ull
+element bjt[pnp10_ull] ull_emit10 ull_coll ull_nbase ull_emit
+model=bjt[pnp10_ull_mis],pnp10_ull_mis
+element bjt[pnp10_ull_mis] ull_emit10_mis ull_coll ull_nbase ull_emit
+model=bjt[pnp2_ell],pnp2_ell
+element bjt[pnp2_ell] ell_emit2 ell_coll ell_nbase ell_emit
+model=bjt[pnp2_ell_mis],pnp2_ell_mis
+element bjt[pnp2_ell_mis] ell_emit2_mis ell_coll ell_nbase ell_emit
+model=bjt[pnp2_ull],pnp2_ull
+element bjt[pnp2_ull] ull_emit2 ull_coll ull_nbase ull_emit
+model=bjt[pnp2_ull_mis],pnp2_ull_mis
+element bjt[pnp2_ull_mis] ull_emit2_mis ull_coll ull_nbase ull_emit
+model=bjt[pnp5_ell],pnp5_ell
+element bjt[pnp5_ell] ell_emit5 ell_coll ell_nbase ell_emit
+model=bjt[pnp5_ell_mis],pnp5_ell_mis
+element bjt[pnp5_ell_mis] ell_emit5_mis ell_coll ell_nbase ell_emit
+model=bjt[pnp5_ull],pnp5_ull
+element bjt[pnp5_ull] ull_emit5 ull_coll ull_nbase ull_emit
+model=bjt[pnp5_ull_mis],pnp5_ull_mis
+element bjt[pnp5_ull_mis] ull_emit5_mis ull_coll ull_nbase ull_emit
+model=diode[pp_dpwnbl_dio],dpwnbl_dio
+element diode[pp_dpwnbl_dio] ppdpwnbldio_r DPW NBL
+model=diode[pp_dpwnbl_dio_60],dpwnbl_dio_60
+element diode[pp_dpwnbl_dio_60] ppdpwnbldio_60_r DPW NBL
+model=diode[pp_hvnwdnwpsubhvpw_dio_iso],hvnwdnwpsubhvpw_dio_iso
+element diode[pp_hvnwdnwpsubhvpw_dio_iso] hvnwdnwpsubhvpw_dio_iso_r psub_term HVNW
+model=diode[pp_hvnwdnwpsubhvpw_dio_iso_ac],hvnwdnwpsubhvpw_dio_iso_ac
+element diode[pp_hvnwdnwpsubhvpw_dio_iso_ac] hvnwdnwpsubhvpw_dio_iso_ac_r psub_term HVNW
+model=diode[pp_hvnwpsub_dio],hvnwpsub_dio
+element diode[pp_hvnwpsub_dio] pphvnwpsubdio_r psub_term HVNW
+model=diode[pp_hvnwpsubhvpw_dio_iso_ac],hvnwpsubhvpw_dio_iso_ac
+element diode[pp_hvnwpsubhvpw_dio_iso_ac] hvnwpsubhvpw_dio_iso_ac_r psub_term HVNW
+model=diode[pp_hvpwdio_hv_iso],hvpwdio_hv_iso
+element diode[pp_hvpwdio_hv_iso] hvpwdio_hv_iso_r HVPW NBL
+model=diode[pp_ldpwhvnw_dio],ldpwhvnw_dio
+element diode[pp_ldpwhvnw_dio] ppldpwhvnwdio_r psub HVNW
+model=diode[pp_nbldio_hv_iso],nbldio_hv_iso
+element diode[pp_nbldio_hv_iso] nbldio_hv_iso_r psub_term NBL
+model=diode[pp_nblpepi_dio],nblpepi_dio
+element diode[pp_nblpepi_dio] ppnblpepidio_r psub_term NBL
+model=diode[pp_nblpepi_dio_60],nblpepi_dio_60
+element diode[pp_nblpepi_dio_60] ppnblpepidio_60_r psub_term NBL
+model=generic[rhim],rhim
+element generic[rhim] rhim_reg tfr[PLUS] tfr[MINUS]
+model=generic[rhvnw],rhvnw
+element generic[rhvnw] rhvnw_r HVNW[PLUS] HVNW[MINUS] HVPW[BULK]
+model=generic[rhvnw_60],rhvnw_60
+element generic[rhvnw_60] rhvnw_60_r HVNW[PLUS] HVNW[MINUS] HVPW[BULK]
+model=generic[rhvnwhvpw],rhvnwhvpw
+element generic[rhvnwhvpw] rhvnwhvpw_r HVNW[PLUS] HVNW[MINUS] HVPW[BULK]
+model=generic[rhvpw],rhvpw
+element generic[rhvpw] rhvpw_r HVPW[PLUS] HVPW[MINUS] HVNW[BULK]
+model=generic[rhvpw_60],rhvpw_60
+element generic[rhvpw_60] rhvpw_60_r HVPW[PLUS] HVPW[MINUS] HVNW[BULK]
+model=generic[rldpwod],rldpwod
+element generic[rldpwod] rldpwod_r HVPW[PLUS] HVPW[MINUS] HVNW[BULK]
+model=generic[rldpwsti],rldpwsti
+element generic[rldpwsti] rldpwsti_r HVPW[PLUS] HVPW[MINUS] HVNW[BULK]
+model=generic[rnddhvpw],rnddhvpw
+element generic[rnddhvpw] rndd_hv rndd_term[PLUS] rndd_term[MINUS] HVPW[BULK]
+model=generic[rnod_m],rnod_m
+element generic[rnod_m] rnodip_3t tndiff[PLUS] tndiff[MINUS] psub[B]
+model=generic[rnodrpo_m],rnodrpo_m
+element generic[rnodrpo_m] nrdop_3t tndiff[PLUS] tndiff[MINUS] psub[B]
+model=generic[rnodw_m],rnodw_m
+element generic[rnodw_m] rnodipw_3t tndiff[PLUS] tndiff[MINUS] psub[B]
+model=generic[rnpo1_dis],rnpo1_dis
+element generic[rnpo1_dis] rnpoip_3t poly[PLUS] poly[MINUS] poly_term[B]
+model=generic[rnpo1rpo_dis],rnpo1rpo_dis
+element generic[rnpo1rpo_dis] rnporpo_3t poly[PLUS] poly[MINUS] poly_term[B]
+model=generic[rnpo1w_dis],rnpo1w_dis
+element generic[rnpo1w_dis] rnpoipw_3t poly[PLUS] poly[MINUS] poly_term[B]
+model=generic[rnwod_ell],rnwod_ell
+element generic[rnwod_ell] nwod_ell nxwell[PLUS] nxwell[MINUS]
+model=generic[rnwod_ell_m],rnwod_ell_m
+element generic[rnwod_ell_m] nwod_ell_3t nxwell[PLUS] nxwell[MINUS] psub[B]
+model=generic[rnwod_m],rnwod_m
+element generic[rnwod_m] nwod_3t nxwell[PLUS] nxwell[MINUS] psub[B]
+model=generic[rnwod_ull],rnwod_ull
+element generic[rnwod_ull] nwod_ull nxwell[PLUS] nxwell[MINUS]
+model=generic[rnwod_ull_m],rnwod_ull_m
+element generic[rnwod_ull_m] nwod_ull_3t nxwell[PLUS] nxwell[MINUS] psub[B]
+model=generic[rnwsti_ell],rnwsti_ell
+element generic[rnwsti_ell] nwsti_ell nxwell[PLUS] nxwell[MINUS]
+model=generic[rnwsti_ell_m],rnwsti_ell_m
+element generic[rnwsti_ell_m] nwsti_ell_3t nxwell[PLUS] nxwell[MINUS] psub[B]
+model=generic[rnwsti_m],rnwsti_m
+element generic[rnwsti_m] nwsti_3t nxwell[PLUS] nxwell[MINUS] psub[B]
+model=generic[rnwsti_ull],rnwsti_ull
+element generic[rnwsti_ull] nwsti_ull nxwell[PLUS] nxwell[MINUS]
+model=generic[rnwsti_ull_m],rnwsti_ull_m
+element generic[rnwsti_ull_m] nwsti_ull_3t nxwell[PLUS] nxwell[MINUS] psub[B]
+model=generic[rpbody],rpbody
+element generic[rpbody] rpbody_r tpdiff[PLUS] tpdiff[MINUS] HVNW[BULK]
+model=generic[rpddhvnw],rpddhvnw
+element generic[rpddhvnw] rpdd_hv rpdd_term[PLUS] rpdd_term[MINUS] HVNW[BULK]
+model=generic[rpod_ell],rpod_ell
+element generic[rpod_ell] rpodip_ell tpdiff[PLUS] tpdiff[MINUS]
+model=generic[rpod_ell_m],rpod_ell_m
+element generic[rpod_ell_m] rpodip_ell_3t tpdiff[PLUS] tpdiff[MINUS] nxwell[B]
+model=generic[rpod_m],rpod_m
+element generic[rpod_m] rpodip_3t tpdiff[PLUS] tpdiff[MINUS] nxwell[B]
+model=generic[rpod_ull],rpod_ull
+element generic[rpod_ull] rpodip_ull tpdiff[PLUS] tpdiff[MINUS]
+model=generic[rpod_ull_m],rpod_ull_m
+element generic[rpod_ull_m] rpodip_ull_3t tpdiff[PLUS] tpdiff[MINUS] nxwell[B]
+model=generic[rpodrpo_ell],rpodrpo_ell
+element generic[rpodrpo_ell] prdop_ell tpdiff[PLUS] tpdiff[MINUS]
+model=generic[rpodrpo_ell_m],rpodrpo_ell_m
+element generic[rpodrpo_ell_m] prdop_ell_3t tpdiff[PLUS] tpdiff[MINUS] nxwell[B]
+model=generic[rpodrpo_m],rpodrpo_m
+element generic[rpodrpo_m] prdop_3t tpdiff[PLUS] tpdiff[MINUS] nxwell[B]
+model=generic[rpodrpo_ull],rpodrpo_ull
+element generic[rpodrpo_ull] prdop_ull tpdiff[PLUS] tpdiff[MINUS]
+model=generic[rpodrpo_ull_m],rpodrpo_ull_m
+element generic[rpodrpo_ull_m] prdop_ull_3t tpdiff[PLUS] tpdiff[MINUS] nxwell[B]
+model=generic[rpodw_ell],rpodw_ell
+element generic[rpodw_ell] rpodipw_ell tpdiff[PLUS] tpdiff[MINUS]
+model=generic[rpodw_ell_m],rpodw_ell_m
+element generic[rpodw_ell_m] rpodipw_ell_3t tpdiff[PLUS] tpdiff[MINUS] nxwell[B]
+model=generic[rpodw_m],rpodw_m
+element generic[rpodw_m] rpodipw_3t tpdiff[PLUS] tpdiff[MINUS] nxwell[B]
+model=generic[rpodw_ull],rpodw_ull
+element generic[rpodw_ull] rpodipw_ull tpdiff[PLUS] tpdiff[MINUS]
+model=generic[rpodw_ull_m],rpodw_ull_m
+element generic[rpodw_ull_m] rpodipw_ull_3t tpdiff[PLUS] tpdiff[MINUS] nxwell[B]
+model=generic[rppo1_dis],rppo1_dis
+element generic[rppo1_dis] rppoip_3t poly[PLUS] poly[MINUS] poly_term[B]
+model=generic[rppo1rpo_dis],rppo1rpo_dis
+element generic[rppo1rpo_dis] rpporpo_3t poly[PLUS] poly[MINUS] poly_term[B]
+model=generic[rppo1w_dis],rppo1w_dis
+element generic[rppo1w_dis] rppoipw_3t poly[PLUS] poly[MINUS] poly_term[B]
+model=generic[rppolyhri3k],rppolyhri3k
+element generic[rppolyhri3k] lrpop3k_2t poly[PLUS] poly[MINUS]
+model=generic[rppolyhri3k_dis],rppolyhri3k_dis
+element generic[rppolyhri3k_dis] lrpop3k_3t poly[PLUS] poly[MINUS] poly_term[BULK]
+model=generic[rppolyhri_dis],rppolyhri_dis
+element generic[rppolyhri_dis] hrpo_3t poly[PLUS] poly[MINUS] poly_term[B]
+model=generic[sbd_dio_60],sbd_dio_60
+element generic[sbd_dio_60] sbd_hv_dio_r sbd_hv_dio[PLUS] NBL[MINUS]
+model=generic[xjvar_nr36],xjvar_nr36
+element generic[xjvar_nr36] jvar_nr tpdiff[PLUS] tndiff[MINUS] psub[BULK]
+model=generic[xjvar_w40],xjvar_w40
+element generic[xjvar_w40] jvar_ws tpdiff[PLUS] tndiff[MINUS] psub[BULK]
+model=generic[zd_dio_4t],zd_dio_4t
+element generic[zd_dio_4t] zd_hv_dio_4t DPW[PLUS] tndiff[MINUS] NBL[NBL_ISO] psub_under_nbl[SUB]

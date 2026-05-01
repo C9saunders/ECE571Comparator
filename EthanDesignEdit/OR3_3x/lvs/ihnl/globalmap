@@ -1,0 +1,10 @@
+CADENCE IHNL11140
+$model
+ECE571_10_OR3/OR3_3x/schematic OR3_3x
+$endmodel
+$net
+vss! vss!
+vdd! vdd!
+$endnet
+$param
+$endparam

@@ -1,0 +1,7 @@
+# SVDB: Port Table (ports)
+# SVDB: Layout Primary OR_2_6
+A 3 A 1660 3400 metal1
+gnd! 1 gnd! 5720 0 metal1
+vdd! 4 vdd! 5710 13780 metal1
+B 2 B 6570 3310 metal1
+Out 5 Out 10470 3480 metal1

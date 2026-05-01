@@ -1,0 +1,10 @@
+Pegasus 23.14-s006 W6eUyhvWDSmkstMrnkYP8g 2026-04-10 15:15:32 525313 linuxa1.engr.colostate.edu
+Copyright 2024 Cadence Design Systems, Inc.
+All rights reserved worldwide.
+
+INFO:    Command Line Options: --log_dir LOGS -top_cell OR3_3x -ui_data --control /top/students/UNGRAD/ECE/scrowl/home/ECE571/TSMC_Cadence/ECE571_10_OR3/OR3_3x/drc_run/pegasusdrcctl /top/students/UNGRAD/ECE/scrowl/home/ECE571/TSMC_Cadence/tsmc18rf.rul
+INFO:    Launch host CPU: Model: Intel(R) Xeon(R) CPU E5-2680 v4 @ 2.40GHz, OS: Rocky Linux release 8.10 (Green Obsidian), Logical cores: 56, Physical cores: 28, Cache: 35840 KB, CPU Speed: 3300 MHz
+         Launch host Memory: MemTotal: 257812 MB,  MemFree: 46395 MB,  SwapTotal: 32767 MB,  SwapFree: 31281 MB,  VmallocTotal: 33554431 MB,  VmallocUsed: 340 MB
+INFO:    Current path: /top/students/UNGRAD/ECE/scrowl/home/ECE571/TSMC_Cadence/ECE571_10_OR3/OR3_3x/drc_run
+INFO:    Run directory same as current path
+INFO:    Log directory: /top/students/UNGRAD/ECE/scrowl/home/ECE571/TSMC_Cadence/ECE571_10_OR3/OR3_3x/drc_run/LOGS

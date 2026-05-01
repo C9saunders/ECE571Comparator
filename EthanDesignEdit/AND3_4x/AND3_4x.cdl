@@ -1,0 +1,40 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  ECE571_13_AND3
+* Top Cell Name: AND3_4x
+* View Name:     schematic
+* Netlisted on:  Apr 17 21:47:29 2026
+************************************************************************
+
+*.BIPOLAR
+*.RESI = 2000 
+*.RESVAL
+*.CAPVAL
+*.DIOPERI
+*.DIOAREA
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: ECE571_13_AND3
+* Cell Name:    AND3_4x
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT AND3_4x A B C Q vdd vss
+*.PININFO A:I B:I C:I Q:O vdd:B vss:B
+MM7 Q net4 vdd vdd P l=180.0n w=5u m=4
+MM2 net4 C vdd vdd P l=180.0n w=4u m=1
+MM1 net4 A vdd vdd P l=180.0n w=4u m=1
+MM0 net4 B vdd vdd P l=180.0n w=4u m=1
+MM6 Q net4 vss vss N l=180.0n w=5u m=1
+MM5 net3 C vss vss N l=180.0n w=4u m=1
+MM4 net5 B net3 vss N l=180.0n w=4u m=1
+MM3 net4 A net5 vss N l=180.0n w=4u m=1
+.ENDS
+

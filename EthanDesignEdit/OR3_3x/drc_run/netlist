@@ -1,0 +1,40 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  mylib
+* Top Cell Name: OR3_3x
+* View Name:     schematic
+* Netlisted on:  Apr  4 00:13:05 2026
+************************************************************************
+
+*.BIPOLAR
+*.RESI = 2000 
+*.RESVAL
+*.CAPVAL
+*.DIOPERI
+*.DIOAREA
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: mylib
+* Cell Name:    OR3_3x
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT OR3_3x A B C F VDD VSS
+*.PININFO A:I B:I C:I VDD:I VSS:I F:O
+MM5 F net3 VSS VSS N l=180n w=4u m=1
+MM3 net3 A VSS VSS N l=180n w=5u m=1
+MM4 net3 B VSS VSS N l=180n w=5u m=1
+MM6 net3 C VSS VSS N l=180n w=5u m=1
+MM1 net018 B net5 VDD P l=180n w=15u m=1
+MM0 net5 A VDD VDD P l=180n w=15u m=1
+MM7 net3 C net018 VDD P l=180n w=15u m=1
+MM2 F net3 VDD VDD P l=180n w=12u m=1
+.ENDS
+
