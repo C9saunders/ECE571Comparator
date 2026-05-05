@@ -205,9 +205,13 @@ You'll need to authenticate this action using your password, which is the SSH ke
 
 1. start Cadence Virtuoso normally following the documents provided in class
 ```shell
-> cd ~/ECE571/TSMC_Cadence/
-> module load virtuoso-2024
-> virtuoso &
+cd ~/ECE571/TSMC_Cadence/
+```
+```shell
+module load virtuoso-2024
+```
+```shell
+virtuoso &
 ```
 
 2. Follow the class documentation again for creating a new library, making sure to name it "ECE571Comparator"
@@ -217,13 +221,13 @@ You'll need to authenticate this action using your password, which is the SSH ke
 3. after creating the library, navigate to it in terminal:
 
 ```shell
-> cd ~/ECE571/TSMC_Cadence/ECE571Comparator/
+cd ~/ECE571/TSMC_Cadence/ECE571Comparator/
 ```
 
 4. use the ssh target provided in this repository's code dropdown and use git clone to create the repository:
 
 ```shell
-> git clone git@github.com:C9saunders/ECE571Comparator.git
+git clone git@github.com:C9saunders/ECE571Comparator.git
 ```
 
 > \[!TIP] if you don't see an SSH option, your account might not have an SSH key, go back to the beginning of this document
