@@ -1,0 +1,15 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "OR3_3x"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  globalList "vdd! vss!"
+  hierDelim "."
+  netlistDir "/top/students/UNGRAD/ECE/scrowl/home/ECE571/TSMC_Cadence/ECE571_10_OR3/OR3_3x/lvs/"
+ )
+( model
+( "ECE571_10_OR3/OR3_3x/schematic" "OR3_3x" )
+ )
+( "OR3_3x" "ihnl/cds0/map" )
+ )

@@ -1,0 +1,71 @@
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.24s.
+*WARNING* LIB ECE571_10_OR3 from File /top/students/UNGRAD/ECE/scrowl/home/ECE571/TSMC_Cadence/cds.lib Line 14 redefines
+LIB ECE571_10_OR3 from the same file (defined earlier.)
+*WARNING* LIB ECE571_11_OR3 from File /top/students/UNGRAD/ECE/scrowl/home/ECE571/TSMC_Cadence/cds.lib Line 15 redefines
+LIB ECE571_11_OR3 from the same file (defined earlier.)
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version IC23.1-64b 02/20/2024 22:50 (cpgbld15) $
+          : sub-version  IC23.1-64b.ISR5.29 
+Started at: 10-Apr-2026  15:15:31
+User Name : scrowl
+Host Name : linuxa1.engr.colostate.edu
+Directory : /top/students/UNGRAD/ECE/scrowl/home/ECE571/TSMC_Cadence
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+WARNING (XSTRM-20): Output Stream file '/top/students/UNGRAD/ECE/scrowl/home/ECE571/TSMC_Cadence/ECE571_10_OR3/OR3_3x/drc_run/OR3_3x.gds.gz' already exists. It will be overwritten.
+*WARNING* The directory: '/top/students/UNGRAD/ECE/scrowl/home/ECE571/TSMC_Cadence/$ASSURAHOME/tools.lnx86/assura/etc/avtech/avTech' does not exist
+	but was defined in libFile '/top/students/UNGRAD/ECE/scrowl/home/ECE571/TSMC_Cadence/cds.lib' for Lib 'avTech'.
+INFO (XSTRM-288): Performing automatic layer mapping because either the layer mapping information is not provided or the XST_AUTO_LM  value is used with the '-layerMap' option. Additionally, the  'xStrmOut_layerMap.txt' file has been generated and the mapping information has been added to it.
+INFO (XSTRM-427): Based on current hardware configuration, running XStream Out translation in multi-threaded mode with 4 threads.
+INFO (XSTRM-280): The output file will be a compressed file because the file name has extension .gz
+INFO (XSTRM-162): You have not used the '-viaMap' option. If the OpenAccess design has native oaVia instances, use the '-viaMap' option for preserving oaVia instances in a XStream Out - XStream In round trip. Using the '-viaMap' option improves performance and VM usage of applications using the Streamed-In design.
+
+Summary of Options :
+library                                 ECE571_10_OR3
+strmFile                                /top/students/UNGRAD/ECE/scrowl/home/ECE571/TSMC_Cadence/ECE571_10_OR3/OR3_3x/drc_run/OR3_3x.gds.gz
+topCell                                 OR3_3x
+view                                    layout
+runDir                                  /top/students/UNGRAD/ECE/scrowl/home/ECE571/TSMC_Cadence/ECE571_10_OR3/OR3_3x/drc_run
+logFile                                 /top/students/UNGRAD/ECE/scrowl/home/ECE571/TSMC_Cadence/ECE571_10_OR3/OR3_3x/drc_run/PIPO1.LOG
+techLib                                 ECE571_10_OR3
+hierDepth                               32
+maxVertices                             2048
+userSkillFile                           /top/students/UNGRAD/ECE/scrowl/home/ECE571/TSMC_Cadence/ECE571_10_OR3/OR3_3x/drc_run/strmout.il
+labelDepth                              32
+case                                    Preserve
+convertDot                              node
+
+INFO (XSTRM-180): You have not used the '-objectMap' option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the '-objectMap' option to translate/preserve these objects using XStream.
+INFO (XSTRM-223): 1. Translating cellview ECE571_10_OR3/OR3_3x/layout as STRUCTURE OR3_3x.
+
+Summary of Objects Translated:
+	Scalar Instances:                       0
+	Array Instances:                        0
+	Polygons:                               0
+	Paths:                                  0
+	Rectangles:                             454
+	Lines:                                  0
+	Arcs:                                   0
+	Donuts:                                 0
+	Dots:                                   0
+	Ellipses:                               0
+	Boundaries:                             0
+	Area Blockages:                         0
+	Layer Blockages:                        0
+	Area Halos:                             0
+	Markers:                                0
+	Rows:                                   0
+	Stitch:                                 0
+	Standard Vias                           0
+	Custom Vias:                            0
+	CdsGen Vias:                            0
+	Pathsegs:                               0
+	Text:                                   6
+	TextDisplay:                            0
+	Cells:                                  1
+
+Elapsed Time: 0.7s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 31660KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.

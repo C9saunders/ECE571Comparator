@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<setupdb version="7">history
+	<active>Active Setup</active>
+	<history>History
+		<historyentry assemblerOrExplorer="explorer" roOrView="view" runningOrFinished="finished">ExplorerRun.0
+			<timestamp>Apr 27 13:05:31 2026</timestamp>
+			<uuid>{e02c8c3b-6681-446d-8d5a-28757ea2ec82}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/top/students/UNGRAD/ECE/tiger131/home/ECE331/TSMC_Cadence/ECE571_9_NOR2/ECE571_9_NOR2/Comparator8bit_testbench/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/top/students/UNGRAD/ECE/tiger131/home/ECE331/TSMC_Cadence/ECE571_9_NOR2/ECE571_9_NOR2/Comparator8bit_testbench/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/top/students/UNGRAD/ECE/tiger131/home/simulation/ECE571_9_NOR2/Comparator8bit_testbench/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/ECE571_9_NOR2/Comparator8bit_testbench/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
+		</historyentry>
+	</history>
+</setupdb>

@@ -1,0 +1,8 @@
+CADENCE IHNL11140
+$model
+mylib/OR3_3x/schematic OR3_3x
+$endmodel
+$net
+$endnet
+$param
+$endparam
